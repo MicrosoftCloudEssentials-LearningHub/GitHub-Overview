@@ -352,7 +352,7 @@ We will acknowledge receipt of your vulnerability report within 24 hours and sen
 
 ## Codespaces
 
-> Codespaces provides cloud-based development environments that are fully configured and ready to code, eliminating environment setup time and "works on my machine" problems.
+> Codespaces provides cloud-based development environments that are fully configured and ready to code, eliminating environment setup time and `works on my machine` problems.
 
 <details>
 <summary><b>Expand for more details</b></summary>
@@ -421,6 +421,18 @@ gh codespace code
 gh codespace stop
 ```
 </details>
+
+## Areas
+
+| **Feature/Area**                  | **Description**                                                                                     | **Purpose**                                                                                     |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| **GitHub Enterprise Cloud**       | A cloud-hosted version of GitHub for businesses, offering advanced collaboration and security tools. | Provides scalability, security, and compliance for organizations using GitHub in the cloud.    |
+| **GitHub Enterprise Server**      | A self-hosted version of GitHub for businesses, deployed on-premises or in a private cloud.         | Offers full control over GitHub infrastructure for organizations with strict compliance needs. |
+| **GitHub Advanced Security**      | Includes tools like Code Scanning and Secret Scanning to identify vulnerabilities in code.          | Helps secure codebases by detecting vulnerabilities and exposed secrets.                       |
+| **GitHub Copilot for Business**   | AI-powered code completion tool tailored for teams and organizations.                              | Boosts developer productivity by suggesting code snippets and automating repetitive tasks.     |
+| **GitHub Copilot for Enterprise** | AI-powered code completion tool designed for large-scale enterprise use.                           | Provides AI-driven coding assistance with enterprise-grade security and scalability.           |
+| **GitHub Actions**                | Automation platform for CI/CD workflows, enabling testing, building, and deployment.               | Streamlines development workflows by automating repetitive tasks.|
+| **GitHub Code Quality**           | A forthcoming feature focused on improving code quality through automated analysis.                | Aims to provide insights and recommendations to improve code maintainability and readability.  |
 
 
 <!-- START BADGE -->
