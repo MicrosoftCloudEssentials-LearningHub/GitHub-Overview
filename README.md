@@ -13,12 +13,11 @@ Last updated: 2025-08-04
 <details>
 <summary><b>List of References</b> (Click to expand)</summary>
 
-  - [GitHub Docs](https://docs.github.com): Comprehensive documentation for all GitHub features and workflows.
+- [GitHub Docs](https://docs.github.com): Comprehensive documentation for all GitHub features and workflows.
 - [GitHub Actions](https://docs.github.com/en/actions): Learn how to automate workflows with GitHub Actions.
 - [GitHub Pages](https://pages.github.com): Official guide to hosting static websites with GitHub Pages.
 - [Git Reference](https://git-scm.com/docs): Official documentation for Git commands and workflows.
 - [GitHub CLI](https://cli.github.com): Command-line interface for GitHub.
-- [GitHub Learning Lab](https://lab.github.com): Interactive tutorials for learning GitHub.
 - [Pro Git Book](https://git-scm.com/book/en/v2): Free book on Git and version control.
 - [GitHub Security Features](https://docs.github.com/en/code-security): Overview of GitHub's security tools.
 - [Dependabot](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically): Automate dependency updates.
