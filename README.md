@@ -27,6 +27,31 @@ Last updated: 2025-08-04
 
 </details>
 
+<details>
+<summary><b>Table of content </b> (Click to expand)</summary>
+
+- [Overview](#overview)
+- [Development Workflow](#development-workflow)
+- [Issues](#issues)
+    - [Key Features](#key-features)
+    - [Examples](#examples)
+- [Projects](#projects)
+    - [Key Features](#key-features)
+    - [Examples](#examples)
+- [GitHub Pages](#github-pages)
+    - [Key Features](#key-features)
+    - [Setup Process](#setup-process)
+    - [Examples](#examples)
+- [Security Tools](#security-tools)
+    - [Key Features](#key-features)
+    - [Examples](#examples)
+- [Codespaces](#codespaces)
+    - [Key Features](#key-features)
+    - [Examples](#examples)
+- [Areas](#areas)
+
+</details>
+
 ## Overview 
 
 | Concept | Definition |
