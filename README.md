@@ -8,7 +8,7 @@ Last updated: 2025-08-04
 
 ----------------------
 
-- `GitHub → Repos (E2E source code, application, IaC, etc)` + GHAS + GHC + etc
+- `GitHub → Repos (E2E source code, application, IaC, etc)` + `GHAS + GHC + etc`
 - `ADO  →  Boards (Agile/Scrum methodologies) +  Pipelines (Testing, CI/CD)`
 
 > GitHub is a web-based platform that provides hosting for software development and version control using Git. It offers a comprehensive suite of tools for collaboration, code management, and software delivery.
