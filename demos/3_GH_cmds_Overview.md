@@ -33,6 +33,8 @@ Last updated: 2026-01-20
 
 3. Call the GitHub API: Run PowerShell script that lists all repos in your org with their sizes. Please change `{YOUR-ORG-NAME}`
 
+      > In GB
+      
       ~~~powershell
       $headers = @{ Authorization = "token $env:GITHUB_TOKEN" }
       $response = Invoke-WebRequest -Uri "https://api.github.com/orgs/{YOUR-ORG-NAME}/repos?per_page=100" -Headers $headers
@@ -42,10 +44,25 @@ Last updated: 2026-01-20
       $repos | Select-Object name, @{Name="SizeGB";Expression={[math]::Round($_.size/(1024*1024),2)}} | Sort-Object SizeGB -Descending
       ~~~
 
-      > E.g 
+      > E.g in GB:
 
       <img width="1458" height="897" alt="image" src="https://github.com/user-attachments/assets/151e960b-f053-43ae-9946-d229df36756f" />
 
+
+      > In KB: 
+      
+      ~~~powershell
+      $headers = @{ Authorization = "token $env:GITHUB_TOKEN" }
+      $response = Invoke-WebRequest -Uri "https://api.github.com/orgs/{YOUR-ORG-NAME}/repos?per_page=100" -Headers $headers
+      $repos = $response.Content | ConvertFrom-Json
+      
+      # Show name and size in MB
+      $repos | Select-Object name, @{Name="SizeMB";Expression={[math]::Round($_.size/1024,2)}} | Sort-Object SizeMB -Descending
+      ~~~
+
+      > E.g in KB:
+      
+      <img width="1445" height="955" alt="image" src="https://github.com/user-attachments/assets/e6da7ec4-af20-4d40-9033-294f7e9c90ee" />
 
 <!-- START BADGE -->
 <div align="center">
