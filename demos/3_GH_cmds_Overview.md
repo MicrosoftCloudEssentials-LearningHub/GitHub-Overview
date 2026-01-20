@@ -35,7 +35,7 @@ Last updated: 2026-01-20
 
       ~~~powershell
       $headers = @{ Authorization = "token $env:GITHUB_TOKEN" }
-      $response = Invoke-WebRequest -Uri "https://api.github.com/orgs/MicrosoftCloudEssentials-LearningHub/repos?per_page=100" -Headers $headers
+      $response = Invoke-WebRequest -Uri "https://api.github.com/orgs/{YOUR-ORG-NAME}/repos?per_page=100" -Headers $headers
       $repos = $response.Content | ConvertFrom-Json
       
       # Show name and size in GB
