@@ -43,6 +43,10 @@ Last updated: 2025-10-07
 
 https://github.com/user-attachments/assets/5996e84e-f50b-4670-b6e5-de8310421c21
 
+> History example:
+
+https://github.com/user-attachments/assets/fffbbce1-8a48-49f7-a8d8-96da6d9c433e
+
 1. Clone your GitLab repository:
 
    ```bash
