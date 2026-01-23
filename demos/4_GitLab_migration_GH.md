@@ -37,6 +37,12 @@ Last updated: 2025-10-07
 
 ## Repository Migration (Code + History)
 
+> E.g Repo of 4.2 GB:
+
+<img width="1912" height="1077" alt="image" src="https://github.com/user-attachments/assets/ffef6d19-ae63-41c8-b5ed-15cf864d5e30" />
+
+https://github.com/user-attachments/assets/5996e84e-f50b-4670-b6e5-de8310421c21
+
 1. Clone your GitLab repository:
 
    ```bash
