@@ -38,11 +38,16 @@ Last updated: 2025-10-07
 ## Repository Migration (Code + History)
 
 1. Clone your GitLab repository:
+
    ```bash
    git clone --mirror https://gitlab.com/username/repo.git
    ```
    - `--mirror` ensures all branches, tags, and refs are included.
+   
 2. Create a new repository on GitHub (empty).
+
+      https://github.com/user-attachments/assets/ba8b1a16-4949-493c-bac2-4a63ba59b2f9
+
 3. Push the mirrored repo to GitHub:
    ```bash
    cd repo.git
