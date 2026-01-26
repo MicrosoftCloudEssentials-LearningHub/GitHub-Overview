@@ -53,10 +53,18 @@ https://github.com/user-attachments/assets/fffbbce1-8a48-49f7-a8d8-96da6d9c433e
    git clone --mirror https://gitlab.com/username/repo.git
    ```
    - `--mirror` ensures all branches, tags, and refs are included.
-   
+
+   > E.g
+
+   <img width="1806" height="1016" alt="image" src="https://github.com/user-attachments/assets/fd12c938-e958-43d7-9f9e-dcf538a4ae3f" />
+
 2. Create a new repository on GitHub (empty).
 
       https://github.com/user-attachments/assets/ba8b1a16-4949-493c-bac2-4a63ba59b2f9
+
+      > E.g:
+
+      <img width="1906" height="993" alt="image" src="https://github.com/user-attachments/assets/b754113d-4a4b-4e45-a899-f4bbc622cb92" />
 
 3. Push the mirrored repo to GitHub:
    ```bash
@@ -64,7 +72,19 @@ https://github.com/user-attachments/assets/fffbbce1-8a48-49f7-a8d8-96da6d9c433e
    git push --mirror https://github.com/username/repo.git
    ```
 
+   > E.g:
+   
+   <img width="1908" height="997" alt="image" src="https://github.com/user-attachments/assets/de98ff11-e412-4e4c-959e-fb870f4aef97" />
+
+   <img width="1912" height="991" alt="image" src="https://github.com/user-attachments/assets/6a35dce4-f6f3-4051-9da9-9d3861b8e55f" />
+
 > At this point, your code and commit history are fully migrated.
+
+   > E.g:
+
+   <img width="1905" height="992" alt="image" src="https://github.com/user-attachments/assets/5a0b6e7b-1619-41a2-97c7-5db20c9fb431" />
+   
+   https://github.com/user-attachments/assets/21d82423-d51b-493c-b921-0e437c13e580
 
 ## Issues and Comments
 
