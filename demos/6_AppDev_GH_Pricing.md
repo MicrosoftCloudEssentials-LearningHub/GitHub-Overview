@@ -132,13 +132,28 @@ https://github.com/user-attachments/assets/ae9e1f25-0e7d-4b68-95b8-db0c2fa9773a
 | **GitHub Actions**                               | CI/CD + Testing         | Automates builds, tests, validations, and workflows directly in the repo. | - Ensures every commit is tested and validated. <br/> - Enables fast feedback loops and enforces quality gates at scale. |
 | **GitHub Code Quality (coming soon)**            | Quality & Analysis      | Static analysis, maintainability checks, code health scoring. |-  Improves long‑term code maintainability. <br/> - Reduces technical debt and supports consistent engineering standards. |
 
-### Azure DevOps: Boards + Pipelines:
+<details>
+<summary><b> Azure DevOps: Boards + Pipelines  - pricing example </b> (Click to expand)</summary>
+
+> Click here to read more about:
+- [Pricing for Azure DevOps](https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/?msockid=38ec3806873362243e122ce086486339)
+- [GitHub pricing options](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339)
 
 <img width="956" height="982" alt="image" src="https://github.com/user-attachments/assets/4e60d31c-935b-4c81-a1ad-f4d5fa6c65df" />
 
 https://github.com/user-attachments/assets/b8f0d004-32b4-4480-84b1-e80601be2863
 
-### GitHub Advanced Security:
+</details>
+
+
+<details>
+<summary><b>GitHub Advanced Security - pricing example </b> (Click to expand)</summary>
+
+> Click here to read more about:
+- [GitHub Enterprise Pricing](https://github.com/pricing)
+- [GitHub Advanced Security license billing](https://docs.github.com/en/billing/concepts/product-billing/github-advanced-security)
+- [GitHub pricing options](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339)
+
 
 <img width="1907" height="991" alt="image" src="https://github.com/user-attachments/assets/9d21b569-1a7a-448c-955d-949e79a85a45" />
 
@@ -146,13 +161,34 @@ https://github.com/user-attachments/assets/b8f0d004-32b4-4480-84b1-e80601be2863
 
 <img width="1189" height="596" alt="image" src="https://github.com/user-attachments/assets/13d9fba1-3322-47a8-94e7-9d907342adac" />
 
-### GitHub Actions:
+</details>
+
+<details>
+<summary><b> GitHub Actions - pricing example </b> (Click to expand)</summary>
+
+> Click here to read more about:
+- [GitHub Enterprise Pricing](https://github.com/pricing)
+- [GitHub Actions billing](https://docs.github.com/en/billing/concepts/product-billing/github-actions)
+- [GitHub pricing options](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339)
 
 <img width="1115" height="958" alt="image" src="https://github.com/user-attachments/assets/47722cf9-a093-4c1f-8894-8aab57f74adf" />
 
+https://github.com/user-attachments/assets/eb1b1c94-48f5-4136-9818-e4c356317b3b
+
+</details>
 
 
-### GitHub Code Quality: 
+<details>
+<summary><b> GitHub Code Quality - pricing example </b> (Click to expand)</summary>
+
+> Click here to read more about:
+- [GitHub Enterprise Pricing](https://github.com/pricing)
+- [GitHub Code Quality billing](https://docs.github.com/en/billing/concepts/product-billing/github-code-quality)
+- [GitHub pricing options](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339)
+
+https://github.com/user-attachments/assets/de20f063-d70a-42d0-bb64-dd6acef85c59
+
+</details>
 
 <!-- START BADGE -->
 <div align="center">
