@@ -125,6 +125,8 @@ https://github.com/user-attachments/assets/ae9e1f25-0e7d-4b68-95b8-db0c2fa9773a
 >   - GitHub Actions `CI/CD + Testing`
 >   - GitHub Code Quality (coming soon) `Quality & Analysis`
 
+<img width="1102" height="394" alt="Screenshot 2026-01-26 073915" src="https://github.com/user-attachments/assets/8ca5725c-d723-4864-a2db-4e98d027a449" />
+
 | Area / Tool                                      | Category                | What It Does (Function)                                      | Value to DevSecOps (Why It Matters) |
 |--------------------------------------------------|-------------------------|---------------------------------------|-------------------------------------------------------------------|
 | **Azure DevOps: Boards + Pipelines**            | Planning + CI/CD        | - Boards: work tracking, backlog, planning.<br> - Pipelines: build, test, deploy automation. | - Creates traceability from idea → code → deployment. <br/> - Ensures repeatable builds, consistent releases, and governance across teams. |
