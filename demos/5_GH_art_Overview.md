@@ -63,6 +63,7 @@ https://github.com/user-attachments/assets/e0973d9a-73ab-4c67-a7c4-e7418c73c67f
 | **Security & Compliance** | - **Dependabot**: Automatically scans and updates vulnerable dependencies to keep projects secure.<br>- **Code scanning & secret detection**: Identifies flaws and exposed credentials before they reach production.<br>- Enterprise-grade compliance features (SOC 2, ISO certifications) make GitHub suitable for regulated industries.<br>- Security advisories and vulnerability databases help teams stay ahead of risks. |
 | **Developer Experience**  | - Beginner-friendly interface with intuitive repo management, making GitHub accessible to new developers.<br>- Built-in documentation tools (README files, wikis) and knowledge sharing features streamline onboarding.<br>- **Project boards** and task management tools support agile workflows directly inside GitHub.<br>- **GitHub Pages**: Free static site hosting from repositories, ideal for documentation, portfolios, or project websites.<br>- Rich search and code navigation features (code search, blame view) improve productivity and understanding of large codebases. |
 
+https://github.com/user-attachments/assets/72e3efd7-07c8-4677-bbfe-ae2cfe73a459
 
 <!-- START BADGE -->
 <div align="center">
@@ -70,6 +71,3 @@ https://github.com/user-attachments/assets/e0973d9a-73ab-4c67-a7c4-e7418c73c67f
   <p>Refresh Date: 2026-01-25</p>
 </div>
 <!-- END BADGE -->
-
-
-
