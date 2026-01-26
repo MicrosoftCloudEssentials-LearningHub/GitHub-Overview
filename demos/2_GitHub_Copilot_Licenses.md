@@ -1,4 +1,4 @@
-# Github Licenses - Overview
+# GitHub Licenses - Overview
 
 Costa Rica
 
@@ -165,7 +165,6 @@ https://github.com/user-attachments/assets/3c993648-8a8d-4b5d-be79-19850aeef593
 10. Users activate their accounts and Copilot access is enabled automatically.
 
     <img width="1917" height="1013" alt="image" src="https://github.com/user-attachments/assets/8fffd583-954f-4308-9b62-3eba70f44529" />
-
 
 <!-- START BADGE -->
 <div align="center">
