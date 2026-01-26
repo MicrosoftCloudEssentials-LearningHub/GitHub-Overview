@@ -14,7 +14,7 @@ Last updated: 2025-08-04
 > GitHub is a web-based platform that provides hosting for software development and version control using Git. It offers a comprehensive suite of tools for collaboration, code management, and software delivery.
 
 <div align="center">
-  <img width="650" alt="image" src="https://github.com/user-attachments/assets/a3d413ce-b0d8-40a6-85d3-a3da825b34e3" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/a3d413ce-b0d8-40a6-85d3-a3da825b34e3" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
 </div>
 
 > [!TIP]
