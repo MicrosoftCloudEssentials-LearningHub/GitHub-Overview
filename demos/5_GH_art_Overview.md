@@ -42,6 +42,8 @@ Last updated: 2026-01-25
 | **Productivity Gains**    | - Developers report **30–40% faster coding** compared to manual coding<br>- Reduces boilerplate and repetitive tasks<br>- Frees time for higher-level problem solving |
 | **Unique Features**       | - **Copilot Chat**: natural language queries, debugging, explanations<br>- **Context awareness**: reads surrounding code for accurate completions<br>- **Multi-language support**: strong across Python, JavaScript, TypeScript, Go, C#, and more |
 
+https://github.com/user-attachments/assets/e0973d9a-73ab-4c67-a7c4-e7418c73c67f
+
 ## Why GitHub?
 
 > GitHub isn’t just a place to store code, it’s a social network for developers, a productivity engine, and a secure ecosystem that powers everything from hobby projects to the world’s largest enterprises. `Over 100 million developers use GitHub, making it the largest coding community in the world.`
