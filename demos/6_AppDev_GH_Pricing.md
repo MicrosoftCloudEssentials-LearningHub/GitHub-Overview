@@ -1,4 +1,4 @@
-<img width="1907" height="1077" alt="image" src="https://github.com/user-attachments/assets/c6cb6bd4-73ba-45d0-aa36-108befafc92f" /># Apps Dev + GitHub Pricing - Overview 
+# Apps Dev + GitHub Pricing - Overview 
 
 Costa Rica
 
