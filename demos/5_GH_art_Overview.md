@@ -10,10 +10,16 @@ Last updated: 2026-01-25
 
 <details>
 <summary><b>List of References </b> (Click to expand)</summary>
-
+  
+- [Visual Studio subscriptions pricing](https://visualstudio.microsoft.com/vs/pricing/?tab=paid-subscriptions)
+- [GitHub Enterprise Pricing](https://github.com/pricing)
+- [GitHub Advanced Security license billing](https://docs.github.com/en/billing/concepts/product-billing/github-advanced-security)
+- [GitHub Actions billing](https://docs.github.com/en/billing/concepts/product-billing/github-actions)
+- [GitHub Code Quality billing](https://docs.github.com/en/billing/concepts/product-billing/github-code-quality)
+- [Pricing for Azure DevOps](https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/?msockid=38ec3806873362243e122ce086486339)
+- [GitHub pricing options](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339)
 
 </details>
-
 
 > [!NOTE]
 > - Visual Studio `Dev Platform`
