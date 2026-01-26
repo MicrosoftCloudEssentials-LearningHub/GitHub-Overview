@@ -15,6 +15,7 @@ Last updated: 2025-10-07
 
 - [Repository limits GH](https://docs.github.com/en/repositories/creating-and-managing-repositories/repository-limits)
 - [Planning your migration to GitHub](https://docs.github.com/en/migrations/overview/planning-your-migration-to-github)
+- [About large files on GitHub](https://docs.github.com/en/enterprise-cloud@latest/repositories/working-with-files/managing-large-files/about-large-files-on-github)
 
 </details>
 
