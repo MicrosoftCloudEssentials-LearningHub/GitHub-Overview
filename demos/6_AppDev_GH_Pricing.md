@@ -20,9 +20,14 @@ Last updated: 2026-01-25
 <summary><b>List of References </b> (Click to expand)</summary>
   
 - [Visual Studio subscriptions pricing](https://visualstudio.microsoft.com/vs/pricing/?tab=paid-subscriptions)
+- [GitHub Enterprise Pricing](https://github.com/pricing)
+- [GitHub Advanced Security license billing](https://docs.github.com/en/billing/concepts/product-billing/github-advanced-security)
+- [GitHub Actions billing](https://docs.github.com/en/billing/concepts/product-billing/github-actions)
+- [GitHub Code Quality billing](https://docs.github.com/en/billing/concepts/product-billing/github-code-quality)
+- [Pricing for Azure DevOps](https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/?msockid=38ec3806873362243e122ce086486339)
+- [GitHub pricing options](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339)
 
 </details>
-
 
 > [!NOTE]
 > - Visual Studio `Dev Platform`
@@ -45,7 +50,6 @@ Last updated: 2026-01-25
 <img width="1907" height="1077" alt="image" src="https://github.com/user-attachments/assets/af6544af-713a-45c8-97df-6e48ac3df3e6" />
 
 https://github.com/user-attachments/assets/b5eb82db-d047-4972-ab19-3692634dd0b8
-
 
 ## GitHub 
 
@@ -75,6 +79,15 @@ https://github.com/user-attachments/assets/b5eb82db-d047-4972-ab19-3692634dd0b8
 | Customization           | Limited (cloud‑managed)                          | High (infrastructure, networking, integrations)   |
 | Ideal For               | Organizations wanting zero‑maintenance SaaS      | Organizations needing full data residency control |
 
+> E.g
+
+<img width="1769" height="1064" alt="image" src="https://github.com/user-attachments/assets/3b90849b-c93d-4ce4-8535-efafa27dbd5b" />
+
+From [GitHub Enterprise Pricing](https://github.com/pricing)
+
+> Compare plans:
+
+https://github.com/user-attachments/assets/ae9e1f25-0e7d-4b68-95b8-db0c2fa9773a
 
 ### Code Assistant:
 
@@ -119,6 +132,27 @@ https://github.com/user-attachments/assets/b5eb82db-d047-4972-ab19-3692634dd0b8
 | **GitHub Actions**                               | CI/CD + Testing         | Automates builds, tests, validations, and workflows directly in the repo. | - Ensures every commit is tested and validated. <br/> - Enables fast feedback loops and enforces quality gates at scale. |
 | **GitHub Code Quality (coming soon)**            | Quality & Analysis      | Static analysis, maintainability checks, code health scoring. |-  Improves long‑term code maintainability. <br/> - Reduces technical debt and supports consistent engineering standards. |
 
+### Azure DevOps: Boards + Pipelines:
+
+<img width="956" height="982" alt="image" src="https://github.com/user-attachments/assets/4e60d31c-935b-4c81-a1ad-f4d5fa6c65df" />
+
+https://github.com/user-attachments/assets/b8f0d004-32b4-4480-84b1-e80601be2863
+
+### GitHub Advanced Security:
+
+<img width="1907" height="991" alt="image" src="https://github.com/user-attachments/assets/9d21b569-1a7a-448c-955d-949e79a85a45" />
+
+> E.g:
+
+<img width="1189" height="596" alt="image" src="https://github.com/user-attachments/assets/13d9fba1-3322-47a8-94e7-9d907342adac" />
+
+### GitHub Actions:
+
+<img width="1115" height="958" alt="image" src="https://github.com/user-attachments/assets/47722cf9-a093-4c1f-8894-8aab57f74adf" />
+
+
+
+### GitHub Code Quality: 
 
 <!-- START BADGE -->
 <div align="center">
