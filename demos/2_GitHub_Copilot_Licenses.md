@@ -1,4 +1,4 @@
-# GitHub Licenses - Overview
+# GitHub Copilot Licenses - Overview
 
 Costa Rica
 
