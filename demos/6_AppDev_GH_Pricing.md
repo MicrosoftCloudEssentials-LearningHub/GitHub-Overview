@@ -26,6 +26,7 @@ Last updated: 2026-01-25
 - [GitHub Code Quality billing](https://docs.github.com/en/billing/concepts/product-billing/github-code-quality)
 - [Pricing for Azure DevOps](https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/?msockid=38ec3806873362243e122ce086486339)
 - [GitHub pricing options](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339)
+- [Microsoft Use Case Explorer](https://aiusecaseexplorer.microsoft.com/)
 
 </details>
 
