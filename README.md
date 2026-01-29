@@ -23,6 +23,7 @@ Last updated: 2025-08-04
 <details>
 <summary><b>List of References</b> (Click to expand)</summary>
 
+- [Microsoft Use Case Explorer](https://aiusecaseexplorer.microsoft.com/)
 - [GitHub Docs](https://docs.github.com): Comprehensive documentation for all GitHub features and workflows.
 - [GitHub Actions](https://docs.github.com/en/actions): Learn how to automate workflows with GitHub Actions.
 - [GitHub Pages](https://pages.github.com): Official guide to hosting static websites with GitHub Pages.
