@@ -327,6 +327,8 @@ https://github.com/user-attachments/assets/458d8f3b-6fa0-40c8-a87e-60cef45c442a
 
 https://github.com/user-attachments/assets/c2edf4ff-3bd6-487d-86a1-060d67364f7c
 
+<img width="1535" height="936" alt="image" src="https://github.com/user-attachments/assets/cc803cdb-6d3f-41ca-9aae-c1b55456081a" />
+
 ## Setup Azure Release Pipelines (CD)
 
 ## Monitoring + Observability (Telemetry)
