@@ -141,11 +141,12 @@ https://github.com/user-attachments/assets/3564ddb6-a76c-4003-8f72-f328d0a21f97
 -  Go to **Boards → Backlogs**
 -  Toggle **Epics / Features / Stories**
 -  Confirm hierarchy:
+```
         Epic
          └─ Feature
              └─ User Story
                  └─ Task
-
+```
 <img width="1908" height="991" alt="image" src="https://github.com/user-attachments/assets/2f04eb14-a2dc-41a4-a523-02b3075a5842" />
 
 ## GHE + VS + GHC setup 
