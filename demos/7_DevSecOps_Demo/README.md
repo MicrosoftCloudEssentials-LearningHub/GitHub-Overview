@@ -196,6 +196,7 @@ https://github.com/user-attachments/assets/3564ddb6-a76c-4003-8f72-f328d0a21f97
 
 2. Relate work items with either existing history or new work:
 
+      https://github.com/user-attachments/assets/dfcea8b1-7a76-447f-8e34-97658ac35426
 
 
 ## Setup Azure Release Pipelines (CD)
