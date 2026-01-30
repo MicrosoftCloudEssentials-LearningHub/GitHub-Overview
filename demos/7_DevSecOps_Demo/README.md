@@ -37,7 +37,7 @@ Last updated: 2026-01-25
 - [What is managed identities for Azure resources?](https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview)
 - [Zero Trust security in Azure](https://learn.microsoft.com/en-us/azure/security/fundamentals/zero-trust)
 
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/e5f3ab8b-e14c-46c4-b4d0-c43581684371" />
+    <img width="650" alt="image" src="https://github.com/user-attachments/assets/e5f3ab8b-e14c-46c4-b4d0-c43581684371" />
 
 </details>
 
