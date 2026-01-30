@@ -44,8 +44,20 @@ Last updated: 2026-01-25
 <details>
 <summary><b>Table of Content </b> (Click to expand)</summary>
 
+- [DevOps + Security](#devops--security)
+- [Setup Azure DevOps](#setup-azure-devops)
+  - [Azure DevOps: Boards + Pipelines - pricing example](#azure-devops-boards--pipelines----pricing-example)
+- [GHE + VS + GHC setup](#ghe--vs--ghc-setup)
+- [Setup GitHub Actions + GHAS + GHCQ (CI)](#setup-github-actions--ghas--ghcq-ci)
+  - [GitHub Advanced Security - pricing example](#github-advanced-security---pricing-example)
+  - [GitHub Actions - pricing example](#github-actions---pricing-example)
+  - [GitHub Code Quality - pricing example](#github-code-quality---pricing-example)
+  - [Turn on core GHAS features (org → repo baseline)](#turn-on-core-ghas-features-org--repo-baseline)
+  - [Enable CodeQL code scanning (CI integrated)](#enable-codeql-code-scanning-ci-integrated)
+- [Setup Azure Release Pipelines (CD)](#setup-azure-release-pipelines-cd)
+- [Monitoring + Observability (Telemetry)](#monitoring--observability-telemetry)
+  
 </details>
-
 
 > [!NOTE]
 > - Visual Studio `Dev Platform`
