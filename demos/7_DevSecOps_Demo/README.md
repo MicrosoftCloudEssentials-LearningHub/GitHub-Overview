@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/f55a8831-f67e-455d-86dd-6fa16558eb62
 # Demo: DevSecOps - Overview 
 
 Costa Rica
