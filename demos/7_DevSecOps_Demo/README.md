@@ -73,7 +73,7 @@ Last updated: 2026-01-25
 
   <img width="650"  alt="image" src="https://github.com/user-attachments/assets/cbe06958-f783-4a90-9e7b-d10935c8ebb7" />
 
-2. Create a project:
+2. Create a project: 
 
   <img width="650" alt="image" src="https://github.com/user-attachments/assets/195ddaab-60be-4c8c-b792-47a961d8a2c6" />
 
@@ -83,13 +83,211 @@ Last updated: 2026-01-25
   
   <img width="650" alt="image" src="https://github.com/user-attachments/assets/592e17aa-d09f-420d-a2f0-c945bd6c05d3" />
 
-3. Plan your project. Example of plan: [
+> [!NOTE]
+> Your project now exists but is empty.
+
+3. Plan your project. Example of plan: [Demo_DevSecOps_E2E_Backlog_example](./docs/Demo_DevSecOps_E2E_Backlog_example.xlsx)
 
 > [!NOTE]
 > Azure DevOps supports Excel integration via the Azure DevOps Office Integration add‑in.
 > - You can export work items (epics, features, user stories) to Excel.
 > - You can bulk edit or create work items in Excel (e.g., fill in rows for epics/features/stories).
 > - Then you can publish back to Azure DevOps Boards directly from Excel.
+
+> For example, let's image you have:
+> - Azure DevOps project already exists
+> - You have Basic access or higher
+> - Excel desktop app installed
+> - Your .xlsx contains work items (Epics, Features, Stories, Tasks)
+
+> [!IMPORTANT]
+> - You must still publish in order:
+> - Epics
+> - Features
+> - User Stories
+> - Tasks
+
+1.  Open **Excel (Desktop)**
+2.  Go to **File → New**
+3.  Search for excel with the project planning (following the **Azure DevOps** template)
+    OR
+4.  Go to **Team → New List** (Azure DevOps tab)
+
+> [!NOTE]
+> If you don’t see the Azure DevOps tab:
+
+  <img width="1910" height="1134" alt="image" src="https://github.com/user-attachments/assets/c854723a-b8cc-4b9f-a277-f95905f87d20" />
+
+> - Enable **Developer tab**
+
+https://github.com/user-attachments/assets/be5ca25b-bd82-4a29-b830-cb47d59ce1c5
+
+
+> - Ensure **Azure DevOps Office Integration** is installed
+
+
+
+## Step 3: Connect Excel to Your Project
+
+1.  In Excel, select **Team → New List**
+2.  Choose:
+    *   Organization
+    *   Project
+    *   Team
+3.  Select **Work Item Type**:
+    *   Start with **Epics**
+4.  Click **OK**
+
+Excel will now be **connected live** to Azure DevOps.
+
+***
+
+## Step 4: Import Epics (FIRST)
+
+1.  Copy rows from your **Epics** sheet:
+    *   Title
+    *   Description
+    *   Priority
+    *   Area Path
+2.  Paste them into the Excel list
+3.  Leave **ID blank** (ADO will generate it)
+4.  Click **Publish**
+
+✅ Epics are now created in Azure DevOps.
+
+***
+
+## Step 5: Import Features (SECOND)
+
+1.  Create a **new Excel list**
+2.  Select **Work Item Type → Feature**
+3.  Paste Feature rows
+4.  Populate:
+    *   **Title**
+    *   **Description**
+    *   **Priority**
+    *   **Parent** → Use Epic IDs created in Step 4
+5.  Click **Publish**
+
+✅ Features are now linked to Epics.
+
+***
+
+## Step 6: Import User Stories (THIRD)
+
+1.  Create a new list
+2.  Select **User Story**
+3.  Paste:
+    *   Title
+    *   Description
+    *   Acceptance Criteria
+    *   Priority
+    *   Iteration Path
+    *   Story Points
+4.  Set **Parent** = Feature ID
+5.  Click **Publish**
+
+✅ Stories appear correctly under Features.
+
+***
+
+## Step 7: Import Tasks (FOURTH)
+
+1.  New list → **Task**
+2.  Paste:
+    *   Title
+    *   Description
+    *   Remaining Work / Original Estimate
+3.  Set **Parent** = User Story ID
+4.  Click **Publish**
+
+✅ Tasks now roll up correctly.
+
+***
+
+## Step 8: Import Test Cases (Optional)
+
+1.  New list → **Test Case**
+2.  Paste:
+    *   Title
+    *   Test Steps
+    *   Expected Results
+3.  Set **Parent** = User Story ID
+4.  Publish
+
+✅ Test plans are now traceable.
+
+***
+
+## Step 9: Validate in Azure DevOps
+
+In the web portal:
+
+*   Go to **Boards → Backlogs**
+*   Toggle **Epics / Features / Stories**
+*   Confirm hierarchy:
+        Epic
+         └─ Feature
+             └─ User Story
+                 └─ Task
+
+***
+
+# ✅ Option 2: CSV Import (Fast but Limited)
+
+Use this **only for flat imports** (stories only).
+
+1.  Go to **Boards → Work Items**
+2.  Click **Import Work Items**
+3.  Upload CSV
+4.  Map fields manually
+
+⚠️ CSV **does not reliably support hierarchy**.
+
+***
+
+# ✅ Best Practices (Very Important)
+
+✅ Import in this order:
+
+1.  Epics
+2.  Features
+3.  User Stories
+4.  Tasks
+5.  Test Cases
+
+✅ Use **Area Path** to split teams  
+✅ Use **Iteration Path** for sprints  
+✅ Keep **Acceptance Criteria** plain text or bullet lists  
+✅ Validate hierarchy after each publish
+
+***
+
+# ✅ Common Mistakes to Avoid
+
+❌ Importing everything at once  
+❌ Using Excel Online (won’t work)  
+❌ Missing Parent IDs  
+❌ Mixing Scrum vs Agile work item types
+
+***
+
+# ✅ Want this automated?
+
+I can:
+
+*   Convert your Excel to **ADO‑ready CSVs per work item**
+*   Create an **import‑optimized Excel template**
+*   Generate **Area / Iteration paths** automatically
+*   Tailor this exactly to **Agile vs Scrum vs SAFe**
+
+Just tell me:
+
+*   Which **process** you’re using (Agile/Scrum)
+*   Whether you want **AKS/App Service specific fields**
+*   If this is **single team or multi‑team**
+
+You’re very close to a production‑ready DevSecOps project setup.
 
 ## GHE + VS + GHC setup 
 
