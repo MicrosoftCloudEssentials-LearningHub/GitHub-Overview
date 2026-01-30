@@ -30,6 +30,11 @@ Last updated: 2026-01-25
 - [Pricing for Azure DevOps](https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/?msockid=38ec3806873362243e122ce086486339)
 - [GitHub pricing options](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339)
 - [Microsoft Use Case Explorer](https://aiusecaseexplorer.microsoft.com/)
+- [Configure GitHub Advanced Security for Azure DevOps](https://learn.microsoft.com/en-us/azure/devops/repos/security/configure-github-advanced-security-features?view=azure-devops&tabs=yaml&pivots=standalone-ghazdo#set-up-dependency-scanning)
+- [Overview of role-based access control in Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/custom-overview)
+- [Configure a GitHub Enterprise Cloud Organization for Single sign-on with Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/saas-apps/github-tutorial)
+- [Authenticate to Azure DevOps with Microsoft Entra ID](https://learn.microsoft.com/en-us/azure/devops/integrate/get-started/authentication/entra?view=azure-devops)
+- [What is managed identities for Azure resources?](https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview)
 - [Zero Trust security in Azure](https://learn.microsoft.com/en-us/azure/security/fundamentals/zero-trust)
 
 <img width="650" alt="image" src="https://github.com/user-attachments/assets/e5f3ab8b-e14c-46c4-b4d0-c43581684371" />
