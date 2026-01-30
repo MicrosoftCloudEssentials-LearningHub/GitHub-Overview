@@ -19,6 +19,8 @@ Last updated: 2026-01-25
 <details>
 <summary><b>List of References </b> (Click to expand)</summary>
 
+- [Connect Azure DevOps environments to Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/quickstart-onboard-devops)
+- [Configure the Microsoft Security DevOps Azure DevOps extension](https://learn.microsoft.com/en-us/azure/defender-for-cloud/configure-azure-devops-extension)
 - [Configure GitHub Advanced Security for Azure DevOps](https://learn.microsoft.com/en-us/azure/devops/repos/security/configure-github-advanced-security-features?view=azure-devops&tabs=yaml&pivots=standalone-ghazdo#set-up-dependency-scanning)
 - [Deploy Defender for Containers on Azure (AKS) programmatically](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-containers-azure-enable-programmatically?tabs=aks-cli)
 - [ARM template documentation](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/)
