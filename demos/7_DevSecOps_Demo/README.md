@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/f55a8831-f67e-455d-86dd-6fa16558eb62
 # Demo: DevSecOps - Overview 
 
 Costa Rica
@@ -183,11 +185,16 @@ https://github.com/user-attachments/assets/3564ddb6-a76c-4003-8f72-f328d0a21f97
 
      <img width="650" alt="image" src="https://github.com/user-attachments/assets/6ecd79ce-b6cb-40ec-b897-b2dba10572a0" />
 
-     > For example:
+     > For example: `With new repo`
 
       https://github.com/user-attachments/assets/e693afe4-72b9-4cbd-ab88-b897debc6395
 
       <img width="1924" height="1076" alt="image" src="https://github.com/user-attachments/assets/b5344622-552a-4629-ba9b-b18a4de2e129" />
+
+     > Example with existing GH repo:
+
+     https://github.com/user-attachments/assets/82238805-a84d-4ec9-8d1f-f78d285fab31
+
 
 ## Setup Azure Release Pipelines (CD)
 
