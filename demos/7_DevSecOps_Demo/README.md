@@ -18,6 +18,15 @@ Last updated: 2026-01-25
 
 <details>
 <summary><b>List of References </b> (Click to expand)</summary>
+  
+- [Visual Studio subscriptions pricing](https://visualstudio.microsoft.com/vs/pricing/?tab=paid-subscriptions)
+- [GitHub Enterprise Pricing](https://github.com/pricing)
+- [GitHub Advanced Security license billing](https://docs.github.com/en/billing/concepts/product-billing/github-advanced-security)
+- [GitHub Actions billing](https://docs.github.com/en/billing/concepts/product-billing/github-actions)
+- [GitHub Code Quality billing](https://docs.github.com/en/billing/concepts/product-billing/github-code-quality)
+- [Pricing for Azure DevOps](https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/?msockid=38ec3806873362243e122ce086486339)
+- [GitHub pricing options](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339)
+- [Microsoft Use Case Explorer](https://aiusecaseexplorer.microsoft.com/)
 
 </details>
 
@@ -149,6 +158,19 @@ https://github.com/user-attachments/assets/3564ddb6-a76c-4003-8f72-f328d0a21f97
 ```
 <img width="1908" height="991" alt="image" src="https://github.com/user-attachments/assets/2f04eb14-a2dc-41a4-a523-02b3075a5842" />
 
+<details>
+<summary><b> Azure DevOps: Boards + Pipelines  - pricing example </b> (Click to expand)</summary>
+
+> Click here to read more about:
+- [Pricing for Azure DevOps](https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/?msockid=38ec3806873362243e122ce086486339)
+- [GitHub pricing options](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339)
+
+<img width="956" height="982" alt="image" src="https://github.com/user-attachments/assets/4e60d31c-935b-4c81-a1ad-f4d5fa6c65df" />
+
+https://github.com/user-attachments/assets/b8f0d004-32b4-4480-84b1-e80601be2863
+
+</details>
+
 ## GHE + VS + GHC setup 
 
 > This process enables secure, enterprise-managed deployment of GitHub Copilot
@@ -180,6 +202,51 @@ https://github.com/user-attachments/assets/3564ddb6-a76c-4003-8f72-f328d0a21f97
 > developers frequently integrate their code changes into a shared repository,
 > allowing for automated builds and tests to ensure code quality and functionality.
 
+<details>
+<summary><b>GitHub Advanced Security - pricing example </b> (Click to expand)</summary>
+
+> Click here to read more about:
+- [GitHub Enterprise Pricing](https://github.com/pricing)
+- [GitHub Advanced Security license billing](https://docs.github.com/en/billing/concepts/product-billing/github-advanced-security)
+- [GitHub pricing options](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339)
+
+
+<img width="1907" height="991" alt="image" src="https://github.com/user-attachments/assets/9d21b569-1a7a-448c-955d-949e79a85a45" />
+
+> E.g:
+
+<img width="1189" height="596" alt="image" src="https://github.com/user-attachments/assets/13d9fba1-3322-47a8-94e7-9d907342adac" />
+
+</details>
+
+<details>
+<summary><b> GitHub Actions - pricing example </b> (Click to expand)</summary>
+
+> Click here to read more about:
+- [GitHub Enterprise Pricing](https://github.com/pricing)
+- [GitHub Actions billing](https://docs.github.com/en/billing/concepts/product-billing/github-actions)
+- [GitHub pricing options](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339)
+
+<img width="1115" height="958" alt="image" src="https://github.com/user-attachments/assets/47722cf9-a093-4c1f-8894-8aab57f74adf" />
+
+https://github.com/user-attachments/assets/eb1b1c94-48f5-4136-9818-e4c356317b3b
+
+</details>
+
+
+<details>
+<summary><b> GitHub Code Quality - pricing example </b> (Click to expand)</summary>
+
+> Click here to read more about:
+- [GitHub Enterprise Pricing](https://github.com/pricing)
+- [GitHub Code Quality billing](https://docs.github.com/en/billing/concepts/product-billing/github-code-quality)
+- [GitHub pricing options](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339)
+
+https://github.com/user-attachments/assets/de20f063-d70a-42d0-bb64-dd6acef85c59
+
+</details>
+
+
 1. Link the existing, or create new GitHub repository with Azure DevOps:
 
      <img width="650" alt="image" src="https://github.com/user-attachments/assets/6ecd79ce-b6cb-40ec-b897-b2dba10572a0" />
@@ -198,6 +265,42 @@ https://github.com/user-attachments/assets/3564ddb6-a76c-4003-8f72-f328d0a21f97
 
       https://github.com/user-attachments/assets/dfcea8b1-7a76-447f-8e34-97658ac35426
 
+### Turn on core GHAS features (org → repo baseline)
+
+> Why: Code scanning (CodeQL) finds code vulnerabilities; secret scanning prevents credential leaks (pushes can be blocked with Push protection); dependency features surface known CVEs and auto‑PR fixes (Dependabot).
+
+
+| **Scope**        | **Features to Enable**                                                                 | **Where to Enable**                                                                 | **Value to DevSecOps**                                                                 |
+|------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| **Organization** | - Code Scanning <br/> - Secret Scanning + Push Protection <br/> - Dependency Graph + Dependabot Alerts <br/> - Security Configurations | Org → Settings → Code security and analysis <br/> Org → Settings → Security configurations | - Ensures consistent security baseline across all repos <br/> - Shifts security left <br/> - Provides supply chain visibility <br/> - Reduces manual setup effort |
+| **Repository**   | - Code Scanning (CodeQL) <br/> - Secret Scanning + Push Protection <br/> - Dependency Graph + Dependabot Alerts | Repo → Settings → Code security and analysis | - Provides repo‑specific vulnerability detection <br/> - Protects sensitive data <br/> - Ensures supply chain security at repo level |
+
+`Features include Code Scanning (CodeQL), Secret Scanning + Push Protection, and Dependency Graph/Dependabot alerts.`
+
+> Org‑level enablement is recommended for consistency and scale.
+
+<img width="1914" height="1086" alt="image" src="https://github.com/user-attachments/assets/beaf0d22-6a76-4d1a-aa2d-afaf56327cb1" />
+
+> Repo‑level enablement is useful when org defaults aren’t applied or for exceptions.
+
+<img width="1910" height="995" alt="image" src="https://github.com/user-attachments/assets/20e86d4f-7c50-441b-abf6-b28432d9739d" />
+
+https://github.com/user-attachments/assets/fe505254-f1b9-4144-9a4b-4553f9fbe521
+
+### Enable CodeQL code scanning (CI integrated)
+
+https://github.com/user-attachments/assets/458d8f3b-6fa0-40c8-a87e-60cef45c442a
+
+> [!TIP]
+> Developer pushes code → CI runs → security & quality checks happen automatically:
+> - GitHub Actions runs build + tests
+> - CodeQL analyzes the code (and workflows)
+> - Secret scanning checks for leaked credentials
+> - Dependency review checks new libraries
+> - Results appear in Security tab
+> - Branch protection can block the merge if issues are found
+
+https://github.com/user-attachments/assets/c2edf4ff-3bd6-487d-86a1-060d67364f7c
 
 ## Setup Azure Release Pipelines (CD)
 
