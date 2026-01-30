@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/00e17c57-ed12-41ab-9631-85b9c87b86e7
 # Demo: DevSecOps - Overview 
 
 Costa Rica
@@ -178,6 +180,16 @@ https://github.com/user-attachments/assets/3564ddb6-a76c-4003-8f72-f328d0a21f97
 > Continuous Integration (CI) is a software development practice where
 > developers frequently integrate their code changes into a shared repository,
 > allowing for automated builds and tests to ensure code quality and functionality.
+
+1. Link the existing, or create new GitHub repository with Azure DevOps:
+
+     <img width="650" alt="image" src="https://github.com/user-attachments/assets/6ecd79ce-b6cb-40ec-b897-b2dba10572a0" />
+
+     > For example:
+
+      https://github.com/user-attachments/assets/e693afe4-72b9-4cbd-ab88-b897debc6395
+
+      <img width="1924" height="1076" alt="image" src="https://github.com/user-attachments/assets/b5344622-552a-4629-ba9b-b18a4de2e129" />
 
 ## Setup Azure Release Pipelines (CD)
 
