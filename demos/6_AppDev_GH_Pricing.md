@@ -30,6 +30,21 @@ Last updated: 2026-01-25
 
 </details>
 
+<details>
+<summary><b>Table of Content </b> (Click to expand)</summary>
+
+- [Visual Studio](#visual-studio)
+- [GitHub](#github)
+  - [Hosting Code](#hosting-code)
+  - [Code Assistant](#code-assistant)
+- [DevSecOps](#devsecops)
+  - [Azure DevOps: Boards + Pipelines - Pricing Example](#azure-devops-boards--pipelines----pricing-example)
+  - [GitHub Advanced Security - Pricing Example](#github-advanced-security---pricing-example)
+  - [GitHub Actions - Pricing Example](#github-actions---pricing-example)
+  - [GitHub Code Quality - Pricing Example](#github-code-quality---pricing-example)
+
+</details>
+
 > [!NOTE]
 > - Visual Studio `Dev Platform`
 > - Azure DevOps `Boards + Pipelines`
