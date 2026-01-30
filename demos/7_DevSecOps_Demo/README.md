@@ -18,7 +18,10 @@ Last updated: 2026-01-25
 
 <details>
 <summary><b>List of References </b> (Click to expand)</summary>
-  
+
+- [Configure GitHub Advanced Security for Azure DevOps](https://learn.microsoft.com/en-us/azure/devops/repos/security/configure-github-advanced-security-features?view=azure-devops&tabs=yaml&pivots=standalone-ghazdo#set-up-dependency-scanning)
+- [Deploy Defender for Containers on Azure (AKS) programmatically](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-containers-azure-enable-programmatically?tabs=aks-cli)
+- [ARM template documentation](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/)
 - [Visual Studio subscriptions pricing](https://visualstudio.microsoft.com/vs/pricing/?tab=paid-subscriptions)
 - [GitHub Enterprise Pricing](https://github.com/pricing)
 - [GitHub Advanced Security license billing](https://docs.github.com/en/billing/concepts/product-billing/github-advanced-security)
