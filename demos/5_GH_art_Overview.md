@@ -21,6 +21,15 @@ Last updated: 2026-01-25
 
 </details>
 
+<details>
+<summary><b>Table of Content </b> (Click to expand)</summary>
+
+- [Why GitHub Copilot?](#why-github-copilot)
+- [Why GitHub?](#why-github)
+
+</details>
+
+
 > [!NOTE]
 > - Visual Studio `Dev Platform`
 > - Azure DevOps `Boards + Pipelines`
