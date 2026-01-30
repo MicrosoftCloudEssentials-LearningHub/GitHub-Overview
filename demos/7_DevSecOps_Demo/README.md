@@ -314,6 +314,8 @@ https://github.com/user-attachments/assets/fe505254-f1b9-4144-9a4b-4553f9fbe521
 
 https://github.com/user-attachments/assets/458d8f3b-6fa0-40c8-a87e-60cef45c442a
 
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/a90ebc61-82f6-4f2a-97ca-872ec940e857" />
+
 > [!TIP]
 > Developer pushes code → CI runs → security & quality checks happen automatically:
 > - GitHub Actions runs build + tests
