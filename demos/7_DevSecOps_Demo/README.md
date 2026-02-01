@@ -333,6 +333,10 @@ https://github.com/user-attachments/assets/c2edf4ff-3bd6-487d-86a1-060d67364f7c
 
 ## Setup Azure Release Pipelines (CD)
 
+> Click here to read more about [Create your first pipeline](https://learn.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=python%2Cbrowser). For example, this is how it looks:
+
+https://github.com/user-attachments/assets/773adf4c-9ab4-429e-9c13-f6f8a06a4c2b
+
 ## Monitoring + Observability (Telemetry)
 
 > - `Observability `is particularly useful for diagnosing problems and `understanding the root cause of issues.`
