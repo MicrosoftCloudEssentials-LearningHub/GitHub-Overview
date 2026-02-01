@@ -19,6 +19,13 @@ Last updated: 2026-01-25
 <details>
 <summary><b>List of References </b> (Click to expand)</summary>
 
+- [Specify jobs in your pipeline](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/phases?view=azure-devops&tabs=yaml)
+- [Azure OpenAI GPT model to review Pull Requests for Azure DevOps](https://techcommunity.microsoft.com/blog/healthcareandlifesciencesblog/azure-openai-gpt-model-to-review-pull-requests-for-azure-devops/3851470?after=MjUuOXwyLjF8aXwxMHwxMzI6MHxpbnQsNDIwNTkwNCwzOTEzNzk3)
+- [Azure Pipelines agents](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=yaml%2Cbrowser#microsoft-hosted-agents)
+- [Build GitHub repositories](https://learn.microsoft.com/en-us/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml)
+- [GPT Pull Request Review](https://marketplace.visualstudio.com/items?itemName=mustaphalarhrouch.GPTPullRequestReview)
+- [Enhancing Code Quality at Scale with AI-Powered Code Reviews](https://devblogs.microsoft.com/engineering-at-microsoft/enhancing-code-quality-at-scale-with-ai-powered-code-reviews/)
+- [Using GitHub Copilot code review](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review?tool=webui)
 - [Connect Azure DevOps environments to Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/quickstart-onboard-devops)
 - [Configure the Microsoft Security DevOps Azure DevOps extension](https://learn.microsoft.com/en-us/azure/defender-for-cloud/configure-azure-devops-extension)
 - [Configure GitHub Advanced Security for Azure DevOps](https://learn.microsoft.com/en-us/azure/devops/repos/security/configure-github-advanced-security-features?view=azure-devops&tabs=yaml&pivots=standalone-ghazdo#set-up-dependency-scanning)
