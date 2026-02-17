@@ -79,7 +79,8 @@ Last updated: 2025-10-07
 
 > [!TIP]
 > - To use these, each user typically needs a **GitHub Enterprise license** (around \$20 per user/month). `When`: code to be available on GitHub; but, this is not a requirement. Click here to read more about `GHC standaone` [Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/get-started/quickstart)
-> - `Visual Studio subscribers can often add GitHub Enterprise for $0.12 per user/month, then add Copilot for $19.` Bundle with VS Studio license and GHE applies whether it's an Enterprise or Professional license, as today. More details here [Visual Studio subscriptions pricing](https://visualstudio.microsoft.com/vs/pricing/?tab=paid-subscriptions), [GitHub Enterprise pricing](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339), [Github Copilot](https://github.com/features/copilot/plans) ` EA or SCE`
+> - `Visual Studio subscribers can often add GitHub Enterprise for $0.12 per user/month, then add Copilot for $19.` Bundle with VS Studio license and GHE applies whether it's an Enterprise or Professional license, as today. More details here [Visual Studio subscriptions pricing](https://visualstudio.microsoft.com/vs/pricing/?tab=paid-subscriptions), [GitHub Enterprise pricing](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339), [Github Copilot](https://github.com/features/copilot/plans) ` EA or SCE` -> [Onboard to the Microsoft Customer Agreement (MCA)
+](https://learn.microsoft.com/en-us/azure/cost-management-billing/microsoft-customer-agreement/onboard-microsoft-customer-agreement)
 > - For large deals, GitHub sometimes offers a `1-month free trial`.
 
 https://github.com/user-attachments/assets/a657576a-2b7a-4f9d-911c-191161f423a9
