@@ -50,7 +50,7 @@ Last updated: 2026-01-25
 
 `Use GitHub to optimize developer productivity and Azure DevOps to enforce enterprise governance and delivery controls, together they give us speed and safety.`
 
-> They’re **better together** because each platform is strongest where the other is "weaker".
+> They’re **better together** because each platform is strongest where the other is "complex".
 > - **Azure DevOps = operations, governance, and planning**
 > - **GitHub = developer experience and collaboration**  
 
