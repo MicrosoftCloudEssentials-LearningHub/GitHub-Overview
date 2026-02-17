@@ -61,7 +61,7 @@ https://github.com/user-attachments/assets/e0973d9a-73ab-4c67-a7c4-e7418c73c67f
 
 ## Why GitHub?
 
-> GitHub isn’t just a place to store code, it’s a social network for developers, a productivity engine, and a secure ecosystem that powers everything from hobby projects to the world’s largest enterprises. `Over 100 million developers use GitHub, making it the largest coding community in the world.`
+> GitHub isn’t just a place to store code, it’s a social network for developers, a productivity engine, and a secure ecosystem that powers everything from hobby projects to the world’s largest enterprises. `Over 150 million developers use GitHub, making it the largest coding community in the world.` Click here to see real time insights [The developers metric represents the number of developer accounts on GitHub in a given economy. This count excludes users that are bots or otherwise flagged as “spammy” within internal systems. See our documentation for personal accounts for more information](https://innovationgraph.github.com/global-metrics/developers)
 
 
 | Category                  | Details |
