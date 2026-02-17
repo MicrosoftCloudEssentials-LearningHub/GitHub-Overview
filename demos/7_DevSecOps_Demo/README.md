@@ -106,6 +106,10 @@ Last updated: 2026-01-25
 
 ## Setup Azure DevOps 
 
+<div align="center">
+  <img width="550" alt="image" src="https://github.com/user-attachments/assets/4709b891-8ccf-4f07-b785-9b00001cac3d" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
+
 1. Use one of you existing organizations or create a new one: [Azure DevOps](https://aex.dev.azure.com/)
 
   <img width="650" alt="image" src="https://github.com/user-attachments/assets/90846104-ced9-466f-935f-f833e155bc69" />
