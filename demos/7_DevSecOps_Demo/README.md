@@ -19,6 +19,9 @@ Last updated: 2026-01-25
 <details>
 <summary><b>List of References </b> (Click to expand)</summary>
 
+- GHAS - [About dependency review](https://docs.github.com/en/code-security/concepts/supply-chain-security/about-dependency-review)
+- GHAS - [Responsible use of Copilot Autofix for code scanning](https://docs.github.com/en/code-security/responsible-use/responsible-use-autofix-code-scanning)
+- GHAS - [Defining custom patterns for secret scanning](https://docs.github.com/en/enterprise-cloud@latest/code-security/how-tos/secure-your-secrets/customize-leak-detection/defining-custom-patterns-for-secret-scanning)
 - [Specify jobs in your pipeline](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/phases?view=azure-devops&tabs=yaml)
 - [Azure OpenAI GPT model to review Pull Requests for Azure DevOps](https://techcommunity.microsoft.com/blog/healthcareandlifesciencesblog/azure-openai-gpt-model-to-review-pull-requests-for-azure-devops/3851470?after=MjUuOXwyLjF8aXwxMHwxMzI6MHxpbnQsNDIwNTkwNCwzOTEzNzk3)
 - [Azure Pipelines agents](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=yaml%2Cbrowser#microsoft-hosted-agents)
