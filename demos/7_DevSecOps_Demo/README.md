@@ -22,7 +22,16 @@ Last updated: 2026-01-25
 - GHAS - [About dependency review](https://docs.github.com/en/code-security/concepts/supply-chain-security/about-dependency-review)
 - GHAS - [Responsible use of Copilot Autofix for code scanning](https://docs.github.com/en/code-security/responsible-use/responsible-use-autofix-code-scanning)
 - GHAS - [Defining custom patterns for secret scanning](https://docs.github.com/en/enterprise-cloud@latest/code-security/how-tos/secure-your-secrets/customize-leak-detection/defining-custom-patterns-for-secret-scanning)
+- [Overview of Terraform on Azure - What is Terraform?](https://learn.microsoft.com/en-us/azure/developer/terraform/overview)
+- [What is Azure Resource Manager?](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/overview)
+- [About pipeline security roles](https://learn.microsoft.com/en-us/azure/devops/organizations/security/about-security-roles?view=azure-devops)
 - [Specify jobs in your pipeline](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/phases?view=azure-devops&tabs=yaml)
+- [Manage security in Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/policies/permissions?view=azure-devops)
+- [Secure your Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/security/overview?toc=%2Fazure%2Fdevops%2Forganizations%2Fsecurity%2Ftoc.json&view=azure-devops)
+- [End-to-end governance in Azure when using CI/CD](https://learn.microsoft.com/en-us/devops/operate/governance-cicd)
+
+  <img width="850" height="626" alt="image" src="https://github.com/user-attachments/assets/655ecbb6-9698-4d49-a534-0d2d295de93d" />
+
 - [Azure OpenAI GPT model to review Pull Requests for Azure DevOps](https://techcommunity.microsoft.com/blog/healthcareandlifesciencesblog/azure-openai-gpt-model-to-review-pull-requests-for-azure-devops/3851470?after=MjUuOXwyLjF8aXwxMHwxMzI6MHxpbnQsNDIwNTkwNCwzOTEzNzk3)
 - [Azure Pipelines agents](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=yaml%2Cbrowser#microsoft-hosted-agents)
 - [Build GitHub repositories](https://learn.microsoft.com/en-us/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml)
