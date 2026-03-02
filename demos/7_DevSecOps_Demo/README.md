@@ -19,6 +19,7 @@ Last updated: 2026-01-25
 <details>
 <summary><b>List of References </b> (Click to expand)</summary>
 
+- [Announcing general availability of GitHub Advanced Security for Azure DevOps](https://github.blog/news-insights/product-news/announcing-general-availability-of-github-advanced-security-for-azure-devops/)
 - GHAS - [About dependency review](https://docs.github.com/en/code-security/concepts/supply-chain-security/about-dependency-review)
 - GHAS - [Responsible use of Copilot Autofix for code scanning](https://docs.github.com/en/code-security/responsible-use/responsible-use-autofix-code-scanning)
 - GHAS - [Defining custom patterns for secret scanning](https://docs.github.com/en/enterprise-cloud@latest/code-security/how-tos/secure-your-secrets/customize-leak-detection/defining-custom-patterns-for-secret-scanning)
@@ -51,7 +52,6 @@ Last updated: 2026-01-25
 - [Pricing for Azure DevOps](https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/?msockid=38ec3806873362243e122ce086486339)
 - [GitHub pricing options](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339)
 - [Microsoft Use Case Explorer](https://aiusecaseexplorer.microsoft.com/)
-- [Configure GitHub Advanced Security for Azure DevOps](https://learn.microsoft.com/en-us/azure/devops/repos/security/configure-github-advanced-security-features?view=azure-devops&tabs=yaml&pivots=standalone-ghazdo#set-up-dependency-scanning)
 - [Overview of role-based access control in Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/custom-overview)
 - [Configure a GitHub Enterprise Cloud Organization for Single sign-on with Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/saas-apps/github-tutorial)
 - [Authenticate to Azure DevOps with Microsoft Entra ID](https://learn.microsoft.com/en-us/azure/devops/integrate/get-started/authentication/entra?view=azure-devops)
