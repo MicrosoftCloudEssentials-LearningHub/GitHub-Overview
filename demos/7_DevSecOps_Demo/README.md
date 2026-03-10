@@ -8,6 +8,16 @@ Last updated: 2026-01-25
 
 ----------------------
 
+```mermaid
+graph TD
+    A[Dev Platform - VS/VSC] --> B[Code Platform - GHE/GHES]
+    B --> C[AI Productivity - GHC]
+    B --> D[Security, Code Scanning, Secret Scanning - GHAS]
+    B --> E[Quality & Analysis - GHCQ]
+    A --> F[Boards + Pipelines - ADO]
+    F --> G[CI/CD + Testing - GHA]
+```
+
 > [!IMPORTANT]
 > The information provided and any document (such as scripts, sample codes, etc.) is provided `AS-IS` and `WITH ALL FAULTS`.
 > Pricing estimates are for `demonstration purposes only and do not reflect final pricing`. `Microsoft assumes no liability`
