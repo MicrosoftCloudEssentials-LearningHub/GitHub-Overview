@@ -4,7 +4,7 @@ Costa Rica
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [brown9804](https://github.com/brown9804)
 
-Last updated: 2025-08-04
+Last updated: 2026-03-10
 
 ----------------------
 
@@ -62,6 +62,16 @@ Last updated: 2025-08-04
 
 > [!TIP]
 > For current Azure DevOps users, Microsoft suggest `moving your repositories over to GitHub so you can make the most of the latest agentic AI features`. You can still `keep using Azure Boards, Pipelines, and other tools like Test Plans thanks to our integrations.` Also, `Azure DevOps basic usage rights now come with GitHub Enterprise`, and Microsoft `working on making the migration process and integrations between GitHub and Azure DevOps even smoother.`
+
+```mermaid
+graph TD
+    A[Dev Platform - VS/VSC] --> B[Code Platform - GHE/GHES]
+    B --> C[AI Productivity - GHC]
+    B --> D[Security, Code Scanning, Secret Scanning - GHAS]
+    B --> E[Quality & Analysis - GHCQ]
+    A --> F[Boards + Pipelines - ADO]
+    F --> G[CI/CD + Testing - GHA]
+```
 
 ## Overview 
 
