@@ -149,6 +149,8 @@ How they complement each other:
 
 ## More secure with Defender for Cloud 
 
+Click here to read more about [What is GitHub Advanced Security integration with Microsoft Defender for Cloud (preview)?](https://learn.microsoft.com/en-us/azure/defender-for-cloud/github-advanced-security-overview)
+
 > [!NOTE]
 > - If you already have GHAS enabled and producing findings, Defender doesn’t replace GHAS scanning. It aggregates and operationalizes those results across repos/orgs, and adds DevOps posture signals and optional PR annotations.
 > - The “central dashboard for GHAS findings” you heard about is not a GitHub UI feature. It’s the DevOps security experience inside Microsoft Defender for Cloud (Azure portal).
