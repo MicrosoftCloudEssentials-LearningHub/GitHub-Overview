@@ -20,6 +20,7 @@ Last updated: 2026-03-13
 - [GitHub pricing options](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339)
 - [What is GitHub Advanced Security integration with Microsoft Defender for Cloud (preview)?](https://learn.microsoft.com/en-us/azure/defender-for-cloud/github-advanced-security-overview)
 - [Setup GitHub Advanced Security native integration with Microsoft Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/github-advanced-security-deploy)
+- [Overview of Microsoft Defender for Cloud DevOps security](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-devops-introduction)
 
 </details>
 
@@ -151,7 +152,7 @@ How they complement each other:
 
 ## More secure with Defender for Cloud 
 
-Click here to read more about [What is GitHub Advanced Security integration with Microsoft Defender for Cloud (preview)?](https://learn.microsoft.com/en-us/azure/defender-for-cloud/github-advanced-security-overview), and [Setup GitHub Advanced Security native integration with Microsoft Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/github-advanced-security-deploy)
+Click here to read more about [What is GitHub Advanced Security integration with Microsoft Defender for Cloud (preview)?](https://learn.microsoft.com/en-us/azure/defender-for-cloud/github-advanced-security-overview), [Setup GitHub Advanced Security native integration with Microsoft Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/github-advanced-security-deploy), and [Overview of Microsoft Defender for Cloud DevOps security](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-devops-introduction)
 
 > [!NOTE]
 > - If you already have GHAS enabled and producing findings, Defender doesn’t replace GHAS scanning. It aggregates and operationalizes those results across repos/orgs, and adds DevOps posture signals and optional PR annotations.
