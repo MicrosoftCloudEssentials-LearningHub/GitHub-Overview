@@ -4,7 +4,7 @@ Costa Rica
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [brown9804](https://github.com/brown9804)
 
-Last updated: 2026-01-25
+Last updated: 2026-03-13
 
 ----------------------
 
@@ -28,6 +28,8 @@ Last updated: 2026-01-25
 - [Why GitHub Copilot?](#why-github-copilot)
 - [Why Azure DevOps & GitHub](#why-azure-devops--github)
 - [GHAS in GitHub Repos vs Azure DevOps Repos](#ghas-in-github-repos-vs-azure-devops-repos)
+- [More secure with Defender for Cloud](#more-secure-with-defender-for-cloud)
+- [FAQ](@faq)
 
 </details>
 
@@ -144,6 +146,98 @@ How they complement each other:
 | **Feature Coverage** | Full GHAS suite: code scanning, secret scanning, dependency review, Dependabot | Partial GHAS suite: code scanning + secret scanning; dependency review and Dependabot missing |
 | **Policy & Governance** | GitHub org-level policies; security alerts aggregated across repos | Azure DevOps org/project-level management; less granular integration |
 | **Cost Model** | GHAS is a paid add-on for GitHub Enterprise | GHAS extension is licensed separately for Azure DevOps |
+
+## More secure with Defender for Cloud 
+
+> [!NOTE]
+> - If you already have GHAS enabled and producing findings, Defender doesn’t replace GHAS scanning. It aggregates and operationalizes those results across repos/orgs, and adds DevOps posture signals and optional PR annotations.
+> - The “central dashboard for GHAS findings” you heard about is not a GitHub UI feature. It’s the DevOps security experience inside Microsoft Defender for Cloud (Azure portal).
+>   - In practice, this means your repo-level GHAS signals (CodeQL/code scanning, secret scanning, dependency scanning/Dependabot) can be aggregated and reported at an org/project level in Defender for Cloud (across many repos), alongside DevOps posture/security recommendations.
+>   - To make that work, Defender for Cloud must be able to “see” those results, which requires you to onboard (connect) your GitHub organization and/or Azure DevOps organization to Defender for Cloud using a DevOps security connector. That connector is an Azure-side configuration that establishes authorization between Azure and GitHub/ADO so Defender can inventory repos/projects and pull in security findings for centralized visibility (and, if you later choose to enable it, optional features like PR annotations).
+
+> Coverage areas across SAST, dependency scanning, and code security signals: 
+
+| Coverage area | Typical signals included | GHAS (GitHub Advanced Security) coverage | Microsoft Defender for Cloud – DevOps security coverage |
+|---|---|---|---|
+| **SAST (Code scanning / CodeQL)** | Static code vulnerabilities, insecure patterns, taint-flow issues, CWEs (language dependent) | Runs CodeQL/code scanning and creates repo-level code scanning alerts | Surfaces/rolls up code scanning findings across connected GitHub orgs / ADO orgs for centralized reporting |
+| **Dependency scanning (SCA)** | Vulnerable OSS packages + transitive deps (CVEs/advisories), dependency risk signals | Dependabot/dependency alerts (and optionally update PRs if configured) | Surfaces/rolls up dependency vulnerability scanning findings across onboarded repos/projects |
+| **Secret scanning** | Detected secrets in commits/history; optional push protection signals | Secret scanning alerts + push protection (if enabled) | Aggregated visibility of secret-related findings across connected DevOps environments |
+| **Code security “signals” (coverage/status)** | Whether scanning is enabled, gaps (code scanning off, secret scanning off, dependency scanning off), counts by severity/type | Strong at per-repo enablement and alert detail | Strong at org/project-level inventory + “advanced security status” and findings counts across many repos |
+
+> Developer experience and operational workflow (alerts, triage, remediation): `You can start **visibility-first**: connect for aggregation/reporting, keep write-back features (like PR annotations) off until you choose to enable them.`
+
+- **Where alerts show up**
+  - **GHAS**: Alerts live in the repo (Security tab) and in PR checks/code scanning results; devs see issues in the same place they code/review.
+  - **Defender (DevOps security)**: Alerts/findings are surfaced in the Azure portal as a centralized view across many repos/orgs/projects.
+- **How triage typically happens**
+  - **Developers** triage primarily in **GHAS** (closest to code owners, PR context, blame/history, and fix workflow).
+  - **Security/DevSecOps** triage at scale in **Defender** to spot hotspots (which orgs/projects/repos have most high severity, which repos have scanning disabled, trends).
+- **How remediation gets driven**
+  - **GHAS**: Remediation is PR-centric (fix code, update dependencies, rotate/revoke secrets). This is where the “do the work” loop happens.
+  - **Defender**: Typically drives **governance + prioritization** (visibility, reporting, assignment follow-up) rather than directly fixing code.
+- **Optional “feedback into PRs”**
+  - **Defender** can be configured to add **PR annotations** (comments/annotations) so devs see security findings directly in PR diffs.
+  - This is **explicitly enabled/configured** (not something Defender does automatically just by being connected), and it’s a key reason connectors may request broader permissions.
+
+> Visibility and reporting at an organization or project level (vs. individual repositories):
+
+> [!IMPORTANT]
+> E.g: Assuming your setup is
+> - GHAS enabled on at least one **GitHub org/repo**
+> - GHAzDO (GitHub Advanced Security for Azure DevOps) enabled on at least one **Azure DevOps repo**
+> - You’re evaluating **Defender for Cloud → DevOps security** as the cross-org dashboard
+
+> - The **central dashboard effect only happens after onboarding connectors** (GitHub and/or ADO) to Defender for Cloud.
+> - You can onboard **GitHub first** to validate the “dashboard value” with lower operational concern, then onboard ADO later.
+> - “Write-back” style behavior (example: PR annotations) is an **optional feature you explicitly enable**, not the default requirement for basic aggregation/reporting.
+
+| Scenario | What shows up for GitHub repos | What shows up for Azure DevOps repos (GHAzDO) | “Org / project level” reporting outcome |
+|---|---|---|---|
+| **GHAS only (GitHub)** | Full repo-level GHAS views (code scanning, secrets, dependency alerts) in GitHub | Nothing (unless you also enabled GHAzDO separately in ADO) | Mostly **per-repo**; org-wide visibility depends on GitHub’s own org reporting and exports |
+| **GHAzDO only (Azure DevOps)** | Nothing | Repo-level Advanced Security views in ADO (CodeQL/code scanning, dependency, secrets depending on what’s enabled) | Mostly **per-project/per-repo** inside ADO; not a unified view across GitHub + ADO |
+| **Defender DevOps security + GitHub connector (GitHub onboarded)** | Defender shows centralized inventory + rollups for onboarded GitHub repos (findings counts, status) | Nothing for ADO until you also onboard ADO | **Org-level for GitHub** (good “single pane” across GitHub repos) but not across ADO |
+| **Defender DevOps security + ADO connector (ADO onboarded)** | Nothing for GitHub until you also onboard GitHub | Defender shows centralized inventory + rollups for ADO repos/projects (including GHAzDO-derived signals where applicable) | **Project/org-level for ADO** (good rollup across ADO projects/repos) but not across GitHub |
+| **Defender DevOps security + both connectors (GitHub + ADO onboarded)** | Centralized rollups for GitHub GHAS results | Centralized rollups for ADO (including GHAzDO) | This is the “central dashboard” outcome: **one Azure place** to view posture/findings across **both platforms**, filter by org/project/repo, severity, finding type |
+
+## FAQ
+
+1. **Is there any way to preview/understand Defender’s GHAS-related dashboards before granting ADO write permissions?**
+      > - You can **preview the UX conceptually** via Microsoft Learn pages/screenshots (DevOps security blade + workbook), but there isn’t a true “your data” preview without onboarding a connector.
+      > - A practical low-risk preview approach is **GitHub-first onboarding**: connect only your GitHub org to Defender for Cloud DevOps security first (no ADO connector yet). That lets you see the *actual* Defender DevOps security inventory/rollups and how GHAS findings appear in Defender, without granting any permissions to Azure DevOps.
+      > - Microsoft references a **DevOps Security workbook** and the DevOps security “Manage your DevOps environments” experience in Defender for Cloud (these show the layout: inventory, advanced security status, findings rollups, filters).
+2. **Once Defender is enabled with the required permissions, does it automatically take action in ADO (write-back / issues / config changes)?**
+      >  - Defender for Cloud DevOps security will **perform discovery and scanning/assessment activities** after connection (it calls DevOps APIs and can run recurring posture scans). That’s “activity,” but not the same as “writing back.”
+      >  - **Write-back behaviors are feature-driven and require explicit enablement/configuration.** The clearest example is **Pull Request annotations**: Microsoft documents that PR annotations are something you **turn on** in Defender for Cloud (and optionally scope by category/severity). Those annotations are effectively a “write” action into PRs.
+      >  - Microsoft also explicitly explains that the reason ADO connector asks for **write permissions** (work items/build/code/service hooks/advanced security) is because those permissions are needed for **certain features such as PR annotations**, not because Defender will automatically start changing your ADO configuration the moment it’s connected.
+3. **Can Defender be configured “read-only” / visibility-first (aggregation + reporting only) at the start?** `
+    > - **Yes in practice**, with two layers of control:
+    >     1. **Azure-side access**: you can grant your security viewers **Security Reader** scoped to the connector/resource group so they can view findings without broad subscription write privileges.
+    >     2. **Feature enablement**: connect the DevOps environment for visibility, but **do not enable PR annotations** (and avoid installing/enabling any optional pipeline/action components until you’re ready). In this mode, Defender functions as an **aggregation and reporting console**.
+    >  - Caveat: the connector authorization itself may still request broader ADO scopes than you’d like, even if you intend to run visibility-only. That’s a governance decision about what the connector *could* do vs what you actually enable.
+
+> [!TIP]
+> A safe “visibility-first” pilot is:
+> - (1) onboard the GitHub connector only
+> - (2) validate Defender for Cloud DevOps security dashboards/workbooks
+> - (3) onboard the Azure DevOps connector in a sandbox org/project
+> - (4) keep PR annotations OFF (no write-back)
+> - (5) only then decide whether to enable any write-back features (like PR annotations) based on governance comfort.
+
+```mermaid
+flowchart LR
+  A["1. Onboard GitHub connector only
+  Defender for Cloud DevOps security"] --> B["2. Validate dashboards and workbooks
+  Central rollups and reporting"]
+  B --> C["3. Onboard Azure DevOps connector
+  Use a sandbox org or project"]
+  C --> D["4. Keep PR annotations OFF
+  No write back to PRs"]
+  D --> E{"5. Enable write back features?"}
+  E -->|No| F["Stay visibility only
+  Aggregation and reporting"]
+  E -->|Yes| G["Enable PR annotations or other features
+  Explicit opt in"]
+```
 
 <!-- START BADGE -->
 <div align="center">
