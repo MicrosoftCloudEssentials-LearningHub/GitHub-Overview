@@ -20,6 +20,9 @@ Last updated: 2026-03-19
 - [Overview of Microsoft Defender for Cloud DevOps security](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-devops-introduction)
 - [Configure GitHub Advanced Security for Azure DevOps](https://learn.microsoft.com/en-us/azure/devops/repos/security/configure-github-advanced-security-features?view=azure-devops&tabs=yaml&pivots=standalone-ghazdo#set-up-dependency-scanning)
 - [Connect Azure DevOps environments to Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/quickstart-onboard-devops)
+- [Key differences between Azure DevOps and GitHub](https://docs.github.com/en/migrations/ado/key-differences-between-azure-devops-and-github?utm_source=copilot.com)
+- [What is GitHub Advanced Security integration with Microsoft Defender for Cloud (preview)?](https://learn.microsoft.com/en-us/azure/defender-for-cloud/github-advanced-security-overview)
+- [Setup GitHub Advanced Security native integration with Microsoft Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/github-advanced-security-deploy)
 
 </details>
 
