@@ -1,4 +1,4 @@
-# GitHub Commands - Overview 
+# GitHub Commands - Check Repo Sizes in an Organization
 
 Costa Rica
 
@@ -14,8 +14,6 @@ Last updated: 2026-01-20
 - [Repository limits](https://docs.github.com/en/repositories/creating-and-managing-repositories/repository-limits?utm_source=copilot.com)
 
 </details>
-
-## Check Repo Sizes in an Organization
 
 1. Create a GitHub Personal Access Token (PAT): 
   - Go to `GitHub → Settings → Developer settings → Personal access tokens.`
