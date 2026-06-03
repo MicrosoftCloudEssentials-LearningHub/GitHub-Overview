@@ -26,6 +26,9 @@ Last updated: 2025-08-04
 
 </details>
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ad32d837-18b2-4a3d-9641-562048ee314f" />
+
+
 ## Why GitHub for DevOps and Azure?
 
 > GitHub is the world’s leading platform for version control and collaboration. Used with Azure, it enables:
