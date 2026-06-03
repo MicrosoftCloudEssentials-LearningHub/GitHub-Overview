@@ -86,6 +86,8 @@ graph TD
 
 ## Development Workflow
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9d769557-a4fa-4f98-b116-3b1831be2d6e" />
+
 <details>
 <summary><b>1. Create or Clone a Repository</b></summary>
 
