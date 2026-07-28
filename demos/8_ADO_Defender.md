@@ -1,20 +1,12 @@
 # Microsoft Defender for Cloud DevOps security - Overview 
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2026-03-19
-
-----------------------
-
 > **Microsoft Defender for Cloud DevOps security** (also called **Defender for DevOps**) extends Defender for Cloud **earlier into the software development lifecycle (SDLC)**. `It gives security teams visibility and control over DevOps risk, not just deployed workloads`. Extends cloud security into source code and pipelines, giving security teams centralized visibility and risk prioritization across GitHub and Azure DevOps, especially when paired with GitHub Advanced Security for deep code analysis. It is:
 > - A **security control plane** for DevOps environments
 > - A **bridge between application security and cloud security**
 
 `What it is, what it protects, how it works, and where it fits relative to GHAS and Azure DevOps.`
 
-<details>
+<details markdown="1">
 <summary><b>List of References </b> (Click to expand)</summary>
 
 - [Overview of Microsoft Defender for Cloud DevOps security](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-devops-introduction)
@@ -26,7 +18,8 @@ Last updated: 2026-03-19
 
 </details>
 
-> [!IMPORTANT]
+> **Important**
+>
 > Instead of only protecting *runtime* cloud resources, it:
 > - Connects to **source control and CI/CD platforms**
 > - Continuously **assesses security risks in code, pipelines, and configurations**
@@ -42,7 +35,8 @@ Defender for DevOps integrates natively with:
 - **GitHub Advanced Security** → deeper integration for code findings
 - **GitLab** 
 
-> [!TIP]
+> **Tip**
+>
 > Emphasizes in **closing the Dev–Sec gap**:
 > | Traditional issue                          | How Defender for DevOps helps                |
 > | ------------------------------------------ | -------------------------------------------- |
@@ -83,7 +77,7 @@ G --> H
 H --> I[Security Score]
 ```
 
-<details>
+<details markdown="1">
 <summary><strong>Step 1: Create a DevOps connector</strong></summary>
 
 > A DevOps connector is the trust bridge between your DevOps platform and Defender for Cloud. It establishes secure, auditable access and enables agentless scanning.
@@ -96,7 +90,7 @@ H --> I[Security Score]
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Step 2: Continuous security assessment</strong></summary>
 
 > Once connected, Defender for DevOps continuously evaluates your DevOps environment against Microsoft’s security baselines and real-world cloud attack patterns.
@@ -142,11 +136,3 @@ It’s especially strong when paired with:
 - **Defender CSPM**
 - **GHAS**
 - **Policy‑driven DevOps governance**
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1329-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-04-06</p>
-</div>
-<!-- END BADGE -->
-

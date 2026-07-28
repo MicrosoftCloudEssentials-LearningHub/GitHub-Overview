@@ -1,0 +1,1 @@
+--8<-- "demos/6_AppDev_GH_Pricing.md"

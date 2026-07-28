@@ -1,0 +1,1 @@
+--8<-- "demos/7_DevSecOps_Demo/README.md"

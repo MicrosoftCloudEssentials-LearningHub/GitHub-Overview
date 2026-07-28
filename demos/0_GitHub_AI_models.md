@@ -1,16 +1,8 @@
 # Prototyping with AI Models on GitHub
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2025-08-04
-
-----------------------
-
 > GitHub provides a platform for developers to `prototype, experiment with, and integrate AI models into their projects`. This process involves several key steps and tools that facilitate the development and deployment of AI-powered applications.
 
-<details>
+<details markdown="1">
 <summary><b>List of References </b> (Click to expand)</summary>
 
 - [Prototyping with AI models](https://docs.github.com/en/github-models/prototyping-with-ai-models)
@@ -20,7 +12,7 @@ Last updated: 2025-08-04
 </details>
 
 
-<details>
+<details markdown="1">
 <summary><b>Table of Content</b> (Click to expand)</summary>
 
 - [Overview](#overview)
@@ -190,12 +182,3 @@ Last updated: 2025-08-04
 | **Provision Azure Resources** | - Sign in to your Azure account. <br> - Provision the necessary resources, such as Azure Cognitive Services.                                                                                                  |
 | **Update Authentication** | - Switch from using your GitHub PAT to an Azure production key. <br> - Update your environment variable: <br> ``` export OPENAI_API_KEY="your-azure-api-key"```   
 | **Monitor and Scale** | Monitor your usage and scale your application as needed using Azure’s infrastructure |
-
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1329-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-04-06</p>
-</div>
-<!-- END BADGE -->
-

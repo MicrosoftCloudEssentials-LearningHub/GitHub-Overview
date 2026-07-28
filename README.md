@@ -1,17 +1,9 @@
 # GitHub - Overview
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2026-03-10
-
-----------------------
-
 - `GitHub → Repos (E2E source code, application, IaC, etc)` + `GHAS + GHC + etc`
 - `ADO  →  Boards (Agile/Scrum methodologies) +  Pipelines (Testing, CI/CD)`
 
-<details>
+<details markdown="1">
 <summary><b>List of References</b> (Click to expand)</summary>
 
 - [Microsoft Use Case Explorer](https://aiusecaseexplorer.microsoft.com/)
@@ -29,7 +21,7 @@ Last updated: 2026-03-10
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Table of content </b> (Click to expand)</summary>
 
 - [Overview](#overview)
@@ -60,7 +52,8 @@ Last updated: 2026-03-10
   <img width="500" alt="image" src="https://github.com/user-attachments/assets/a3d413ce-b0d8-40a6-85d3-a3da825b34e3" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
 </div>
 
-> [!TIP]
+> **Tip**
+>
 > For current Azure DevOps users, Microsoft suggest `moving your repositories over to GitHub so you can make the most of the latest agentic AI features`. You can still `keep using Azure Boards, Pipelines, and other tools like Test Plans thanks to our integrations.` Also, `Azure DevOps basic usage rights now come with GitHub Enterprise`, and Microsoft `working on making the migration process and integrations between GitHub and Azure DevOps even smoother.`
 
 ```mermaid
@@ -88,7 +81,7 @@ graph TD
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9d769557-a4fa-4f98-b116-3b1831be2d6e" />
 
-<details>
+<details markdown="1">
 <summary><b>1. Create or Clone a Repository</b></summary>
 
 - Initialize a new repository: `git init my-project`
@@ -96,7 +89,7 @@ graph TD
 - Public repos visible to everyone, private repos limited to collaborators
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>2. Branch Development</b></summary>
 
 - Create and switch to a new branch: `git checkout -b feature-branch`
@@ -104,7 +97,7 @@ graph TD
 - Work in isolation without affecting the main codebase
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>3. Commit Changes</b></summary>
 
 - Check status of changed files: `git status`
@@ -114,7 +107,7 @@ graph TD
 - Build a detailed history of project modifications
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>4. Open Pull Request</b></summary>
 
 - Push branch to remote repository: `git push origin <feature-branch name>`
@@ -122,7 +115,7 @@ graph TD
 - Describe changes, their purpose, and impact
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>5. Code Review and Discussion</b></summary>
 
 - Review changes line by line in GitHub UI
@@ -131,7 +124,7 @@ graph TD
 - Ensure code quality and catch issues early
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>6. Automated Testing (CI)</b></summary>
 
 - GitHub Actions run automated tests when PR is created
@@ -150,7 +143,7 @@ graph TD
 - Check test results in `Actions` tab on GitHub
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>7. Merge Approved Changes</b></summary>
 
 - GitHub UI: Click `Merge pull request`
@@ -164,7 +157,7 @@ graph TD
 - Features or fixes become part of the official project
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>8. Automated Deployment (CD)</b></summary>
 
 - Deploy updated applications to production environments
@@ -191,7 +184,7 @@ graph TD
 
 > Issues are GitHub's built-in tracking system for bugs, feature requests, and tasks. They provide a centralized location to discuss ideas, enhancements, and problems related to your project.
 
-<details>
+<details markdown="1">
 <summary><b>Expand for more details</b></summary>
 
 ### Key Features
@@ -247,7 +240,7 @@ This PR fixes #123 and addresses #456
 
 > Projects are flexible Kanban-style boards for organizing work and tracking progress across GitHub issues and pull requests.
 
-<details>
+<details markdown="1">
 <summary><b>Expand for more details</b></summary>
 
 ### Key Features
@@ -285,7 +278,7 @@ gh project item-add <project-number> --issue <issue-number>
 
 > GitHub Pages is a free hosting service for static websites directly from GitHub repositories, perfect for project documentation, blogs, portfolios, or simple web applications.
 
-<details>
+<details markdown="1">
 <summary><b>Expand for more details</b></summary>
 
 ### Key Features
@@ -345,7 +338,7 @@ description: Comprehensive guides for using my awesome project
 
 > GitHub provides a comprehensive suite of security tools to identify and fix vulnerabilities in your code and dependencies.
 
-<details>
+<details markdown="1">
 <summary><b>Expand for more details</b></summary>
 
 ### Key Features
@@ -402,7 +395,7 @@ We will acknowledge receipt of your vulnerability report within 24 hours and sen
 
 > Codespaces provides cloud-based development environments that are fully configured and ready to code, eliminating environment setup time and `works on my machine` problems.
 
-<details>
+<details markdown="1">
 <summary><b>Expand for more details</b></summary>
 
 ### Key Features
@@ -481,11 +474,3 @@ gh codespace stop
 | **GitHub Copilot for Enterprise** | AI-powered code completion tool designed for large-scale enterprise use.                           | Provides AI-driven coding assistance with enterprise-grade security and scalability.           |
 | **GitHub Actions**                | Automation platform for CI/CD workflows, enabling testing, building, and deployment.               | Streamlines development workflows by automating repetitive tasks.|
 | **GitHub Code Quality**           | A forthcoming feature focused on improving code quality through automated analysis.                | Aims to provide insights and recommendations to improve code maintainability and readability.  |
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1329-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-04-06</p>
-</div>
-<!-- END BADGE -->
-

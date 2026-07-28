@@ -1,14 +1,6 @@
 # GitHub + Azure DevOps - Overview <br/> Art of the Possible 
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2026-03-13
-
-----------------------
-
-<details>
+<details markdown="1">
 <summary><b>List of References </b> (Click to expand)</summary>
   
 - [Visual Studio subscriptions pricing](https://visualstudio.microsoft.com/vs/pricing/?tab=paid-subscriptions)
@@ -24,7 +16,7 @@ Last updated: 2026-03-13
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Table of Content </b> (Click to expand)</summary>
 
 - [Why GitHub?](#why-github)
@@ -37,7 +29,8 @@ Last updated: 2026-03-13
 </details>
 
 
-> [!NOTE]
+> **Note**
+>
 > - Visual Studio `Dev Platform`
 > - Azure DevOps `Boards + Pipelines`
 > - GitHub areas: `Code Platform`
@@ -130,7 +123,8 @@ How they complement each other:
 
 > The main difference is that `GitHub Advanced Security (GHAS) is natively integrated into GitHub repositories`, while in `Azure DevOps it is available only through an extension` and with limited functionality in some aspects (Azure DevOps repos require setup and don’t support all GitHub-native workflows). Click here [Key differences between Azure DevOps and GitHub](https://docs.github.com/en/migrations/ado/key-differences-between-azure-devops-and-github?utm_source=copilot.com) to read more about it.
 
-> [!TIP]
+> **Tip**
+>
 > Azure DevOps is stronger in project management and pipelines, but GitHub is stronger in developer-centric workflows and security integration. GitHub repos give you the complete GHAS package with minimal friction, while Azure DevOps repos provide only a subset of GHAS features and require more setup effort.
 > - **GitHub repos** → Full GHAS experience: seamless integration, developer-first workflows, dependency review, Dependabot, and inline alerts.  
 > - **Azure DevOps repos** → Limited GHAS: code scanning and secret scanning are available, but dependency review and Dependabot are missing. Setup is required, and alerts aren’t as tightly integrated into developer workflows.
@@ -154,7 +148,8 @@ How they complement each other:
 
 Click here to read more about [What is GitHub Advanced Security integration with Microsoft Defender for Cloud (preview)?](https://learn.microsoft.com/en-us/azure/defender-for-cloud/github-advanced-security-overview), [Setup GitHub Advanced Security native integration with Microsoft Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/github-advanced-security-deploy), and [Overview of Microsoft Defender for Cloud DevOps security](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-devops-introduction)
 
-> [!NOTE]
+> **Note**
+>
 > - If you already have GHAS enabled and producing findings, Defender doesn’t replace GHAS scanning. It aggregates and operationalizes those results across repos/orgs, and adds DevOps posture signals and optional PR annotations.
 > - The “central dashboard for GHAS findings” you heard about is not a GitHub UI feature. It’s the DevOps security experience inside Microsoft Defender for Cloud (Azure portal).
 >   - In practice, this means your repo-level GHAS signals (CodeQL/code scanning, secret scanning, dependency scanning/Dependabot) can be aggregated and reported at an org/project level in Defender for Cloud (across many repos), alongside DevOps posture/security recommendations.
@@ -164,7 +159,7 @@ Click here to read more about [What is GitHub Advanced Security integration with
 
 | Coverage area | Typical signals included | GHAS (GitHub Advanced Security) coverage | Microsoft Defender for Cloud – DevOps security coverage |
 |---|---|---|---|
-| **SAST (Code scanning / CodeQL)** | Static code vulnerabilities, insecure patterns, taint-flow issues, CWEs (language dependent) | Runs CodeQL/code scanning and creates repo-level code scanning alerts | Surfaces/rolls up code scanning findings across connected GitHub orgs / ADO orgs for centralized reporting. Please check here to understand more about it [What does Defender for DevOps actually scan?](./demos/8_ADO_Defender.md) |
+| **SAST (Code scanning / CodeQL)** | Static code vulnerabilities, insecure patterns, taint-flow issues, CWEs (language dependent) | Runs CodeQL/code scanning and creates repo-level code scanning alerts | Surfaces/rolls up code scanning findings across connected GitHub orgs / ADO orgs for centralized reporting. Please check here to understand more about it [What does Defender for DevOps actually scan?](https://github.com/Cloud2BR-MSFTLearningHub/GitHub-Overview/blob/main/) |
 | **Dependency scanning (SCA)** | Vulnerable OSS packages + transitive deps (CVEs/advisories), dependency risk signals | Dependabot/dependency alerts (and optionally update PRs if configured) | Surfaces/rolls up dependency vulnerability scanning findings across onboarded repos/projects |
 | **Secret scanning** | Detected secrets in commits/history; optional push protection signals | Secret scanning alerts + push protection (if enabled) | Aggregated visibility of secret-related findings across connected DevOps environments |
 | **Code security “signals” (coverage/status)** | Whether scanning is enabled, gaps (code scanning off, secret scanning off, dependency scanning off), counts by severity/type | Strong at per-repo enablement and alert detail | Strong at org/project-level inventory + “advanced security status” and findings counts across many repos |
@@ -186,7 +181,8 @@ Click here to read more about [What is GitHub Advanced Security integration with
 
 > Visibility and reporting at an organization or project level (vs. individual repositories):
 
-> [!IMPORTANT]
+> **Important**
+>
 > E.g: Assuming your setup is
 > - GHAS enabled on at least one **GitHub org/repo**
 > - GHAzDO (GitHub Advanced Security for Azure DevOps) enabled on at least one **Azure DevOps repo**
@@ -220,7 +216,8 @@ Click here to read more about [What is GitHub Advanced Security integration with
     >     2. **Feature enablement**: connect the DevOps environment for visibility, but **do not enable PR annotations** (and avoid installing/enabling any optional pipeline/action components until you’re ready). In this mode, Defender functions as an **aggregation and reporting console**.
     >  - Caveat: the connector authorization itself may still request broader ADO scopes than you’d like, even if you intend to run visibility-only. That’s a governance decision about what the connector *could* do vs what you actually enable.
 
-> [!TIP]
+> **Tip**
+>
 > A safe “visibility-first” pilot is:
 > - (1) onboard the GitHub connector only
 > - (2) validate Defender for Cloud DevOps security dashboards/workbooks
@@ -243,10 +240,3 @@ flowchart LR
   E -->|Yes| G["Enable PR annotations or other features
   Explicit opt in"]
 ```
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1329-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-04-06</p>
-</div>
-<!-- END BADGE -->

@@ -1,16 +1,8 @@
 # GitHub Pages - Overview 
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2026-03-26
-
-----------------------
-
 > **GitHub Pages** is a feature provided by GitHub that allows you to `host static websites directly from a GitHub repository`. It's a great way to showcase your projects, create personal websites, or host documentation for your repositories. `That means it serves whatever files you put in your repository, without running backend code.`
 
-<details>
+<details markdown="1">
 <summary><b>List of References</b> (Click to expand)</summary>
 
 - [Websites for you and your projects](https://pages.github.com/)
@@ -20,7 +12,7 @@ Last updated: 2026-03-26
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Table of Content</b> (Click to expand)</summary>
 
 - [Wiki](#wiki)
@@ -31,7 +23,8 @@ Last updated: 2026-03-26
 
 </details>
 
-> [!TIP]
+> **Tip**
+>
 > What is GitHub Pages? <br/>
 > GitHub Pages is a `free service that turns your GitHub repositories into websites`. You can host HTML, CSS, and JavaScript files, and it’s perfect for static websites that `don’t require server-side processing`. GitHub Pages supports custom domains, making it easy to create a professional-looking website.
 
@@ -40,7 +33,8 @@ Last updated: 2026-03-26
 - Jekyll templates (Liquid) → processed by GitHub Pages if you keep Jekyll enabled.
 - Static assets → images, fonts, PDFs, JSON, etc.
 
-> [!NOTE]
+> **Note**
+>
 > - If you need dynamic behavior, you can use JavaScript frameworks (React, Vue, Angular) that compile down to static files and deploy them to GitHub Pages.
 > - For backend logic, you’d need to connect to external APIs or use another service (like Firebase, Supabase, or a traditional server).
 
@@ -69,7 +63,7 @@ Last updated: 2026-03-26
       4. **Convert Markdown to HTML**: This step uses `pandoc` to convert Markdown files to HTML and places them in the `_site` directory.
       5. **Deploy to GitHub Pages**: This step commits the generated HTML files back to the `main` branch and pushes the changes. This ensures that your GitHub Pages site is updated with the latest HTML files.
       
-      > Click [here to see an example of the pipeline](./pipelines/markdown-to-html-deploy-gitpages.yml)
+      > Click [here to see an example of the pipeline](https://github.com/Cloud2BR-MSFTLearningHub/GitHub-Overview/blob/main/)
 
 ## Setting Up GitHub Pages
 1. **Create a Repository**: Create a new repository on GitHub or use an existing one.
@@ -81,10 +75,3 @@ Last updated: 2026-03-26
 
     > Static HTML refers to web pages that are delivered to the user's browser exactly as stored, without any server-side processing. Static sites are fast, secure, and easy to deploy, making them ideal for simple websites, portfolios, blogs, and documentation.
 3. Push Your Code: Commit and push your code to the main branch. The GitHub Actions workflow will automatically run and deploy your site to GitHub Pages.
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1329-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-04-06</p>
-</div>
-<!-- END BADGE -->

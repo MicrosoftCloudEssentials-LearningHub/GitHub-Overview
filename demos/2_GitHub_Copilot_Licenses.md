@@ -1,14 +1,7 @@
 # GitHub Copilot Licenses - Overview
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2025-10-07
-
-----------------------
-
-> [!NOTE]
+> **Note**
+>
 > GitHub areas:
 > - GitHub Enterprise Cloud
 > - GitHub Enterprise Server
@@ -18,7 +11,7 @@ Last updated: 2025-10-07
 > - GitHub Actions
 > - GitHub Code Quality (coming soon) 
 
-<details>
+<details markdown="1">
 <summary><b>List of References </b> (Click to expand)</summary>
 
 - [What is GitHub Copilot?](https://docs.github.com/en/copilot/get-started/what-is-github-copilot)
@@ -41,7 +34,7 @@ Last updated: 2025-10-07
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Table of Content</b> (Click to expand)</summary>
 
 - [GitHub Copilot Personal vs. Businesses Use](#github-copilot-personal-vs-businesses-use)
@@ -53,7 +46,8 @@ Last updated: 2025-10-07
 
 </details>
 
-> [!IMPORTANT]
+> **Important**
+>
 > The information provided and any document (such as scripts, sample codes, etc.) is provided `AS-IS` and `WITH ALL FAULTS`. Pricing estimates are for `demonstration purposes only and do not reflect final pricing`. `Microsoft assumes no liability` for your use of this information and makes no guarantees or warranties, expressed or implied, regarding its accuracy or completeness, including any pricing details. `Please note that these demos are intended as a guide and are based on my personal experiences. For official guidance, support, or more detailed information, please refer to Microsoft's official documentation or contact Microsoft directly`: [Microsoft Sales and Support](https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME)
 
 ## GitHub Copilot Personal vs. Businesses Use
@@ -65,7 +59,8 @@ Last updated: 2025-10-07
 
 ## Pricing Details
 
-> [!IMPORTANT]
+> **Important**
+>
 > These are the prices as of today. Please make sure to check the current prices here in case anything has changed.
 > - [Github Copilot](https://github.com/features/copilot/plans) - features and plans
 > - [GitHub Enterprise pricing](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339) - Table
@@ -77,7 +72,8 @@ Last updated: 2025-10-07
 
     https://github.com/user-attachments/assets/a80d8ab6-e9d0-4ef6-9352-30098bbcbbb3
 
-> [!TIP]
+> **Tip**
+>
 > - To use these, each user typically needs a **GitHub Enterprise license** (around \$20 per user/month). `When`: code to be available on GitHub; but, this is not a requirement. Click here to read more about `GHC standaone` [Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/get-started/quickstart)
 > - `Visual Studio subscribers can often add GitHub Enterprise for $0.12 per user/month, then add Copilot for $19.` Bundle with VS Studio license and GHE applies whether it's an Enterprise or Professional license, as today. More details here [Visual Studio subscriptions pricing](https://visualstudio.microsoft.com/vs/pricing/?tab=paid-subscriptions), [GitHub Enterprise pricing](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339), [Github Copilot](https://github.com/features/copilot/plans) ` EA or SCE` -> [Onboard to the Microsoft Customer Agreement (MCA)
 ](https://learn.microsoft.com/en-us/azure/cost-management-billing/microsoft-customer-agreement/onboard-microsoft-customer-agreement)
@@ -102,7 +98,8 @@ https://github.com/user-attachments/assets/b341cc70-f79b-4878-8f9d-7dcfb9255723
 
 https://github.com/user-attachments/assets/3c993648-8a8d-4b5d-be79-19850aeef593
 
-> [!NOTE]
+> **Note**
+>
 > - Free Copilot = personal use only + code may be used for training.
 > - Org use requires paid plans (Business or Enterprise) = code is **not** used for training.
 > - Pricing varies, but expect \$19–\$39 per user/month, with possible discounts for Visual Studio subscribers.
@@ -166,10 +163,3 @@ https://github.com/user-attachments/assets/3c993648-8a8d-4b5d-be79-19850aeef593
 10. Users activate their accounts and Copilot access is enabled automatically.
 
     <img width="1917" height="1013" alt="image" src="https://github.com/user-attachments/assets/8fffd583-954f-4308-9b62-3eba70f44529" />
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1329-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-04-06</p>
-</div>
-<!-- END BADGE -->

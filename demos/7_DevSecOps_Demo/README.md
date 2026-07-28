@@ -1,13 +1,5 @@
 # Demo: DevSecOps - Overview 
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2026-01-25
-
-----------------------
-
 ```mermaid
 graph TD
     A[Dev Platform - VS/VSC] --> B[Code Platform - GHE/GHES]
@@ -18,7 +10,8 @@ graph TD
     F --> G[CI/CD + Testing - GHA]
 ```
 
-> [!IMPORTANT]
+> **Important**
+>
 > The information provided and any document (such as scripts, sample codes, etc.) is provided `AS-IS` and `WITH ALL FAULTS`.
 > Pricing estimates are for `demonstration purposes only and do not reflect final pricing`. `Microsoft assumes no liability`
 > for your use of this information and makes no guarantees or warranties, expressed or implied, regarding its accuracy or completeness,
@@ -26,7 +19,7 @@ graph TD
 > guidance, support, or more detailed information, please refer to Microsoft's official documentation or contact Microsoft directly`:
 > [Microsoft Sales and Support](https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME)
 
-<details>
+<details markdown="1">
 <summary><b>List of References </b> (Click to expand)</summary>
 
 - [Announcing general availability of GitHub Advanced Security for Azure DevOps](https://github.blog/news-insights/product-news/announcing-general-availability-of-github-advanced-security-for-azure-devops/)
@@ -72,7 +65,7 @@ graph TD
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Table of Content </b> (Click to expand)</summary>
 
 - [DevOps + Security](#devops--security)
@@ -90,7 +83,8 @@ graph TD
   
 </details>
 
-> [!NOTE]
+> **Note**
+>
 > - Visual Studio `Dev Platform`
 > - Azure DevOps `Boards + Pipelines`
 > - GitHub areas: `Code Platform`
@@ -156,12 +150,14 @@ graph TD
   
   <img width="650" alt="image" src="https://github.com/user-attachments/assets/592e17aa-d09f-420d-a2f0-c945bd6c05d3" />
 
-> [!NOTE]
+> **Note**
+>
 > Your project now exists but is empty.
 
-3. Plan your project. Example of plan: [Demo_DevSecOps_E2E_Backlog_example](./docs/Demo_DevSecOps_E2E_Backlog_example.xlsx)
+3. Plan your project. Example of plan: [Demo_DevSecOps_E2E_Backlog_example](https://github.com/Cloud2BR-MSFTLearningHub/GitHub-Overview/blob/main/)
 
-> [!NOTE]
+> **Note**
+>
 > Azure DevOps supports Excel integration via the Azure DevOps Office Integration add‑in.
 > - You can export work items (epics, features, user stories) to Excel.
 > - You can bulk edit or create work items in Excel (e.g., fill in rows for epics/features/stories).
@@ -173,7 +169,8 @@ graph TD
 > - Excel desktop app installed
 > - Your .xlsx contains work items (Epics, Features, Stories, Tasks)
 
-> [!IMPORTANT]
+> **Important**
+>
 > - You must still publish in order:
 > - Epics
 > - Features
@@ -188,7 +185,8 @@ https://github.com/user-attachments/assets/c6a9acf3-b244-4d19-99d8-2f17a92ade45
 
 <img width="1899" height="990" alt="image" src="https://github.com/user-attachments/assets/a29fbc40-dbfc-43ac-a6c3-cd6cf9114a67" />
 
-> [!NOTE]
+> **Note**
+>
 > How to add more layers for project management:
 
 https://github.com/user-attachments/assets/3564ddb6-a76c-4003-8f72-f328d0a21f97
@@ -216,7 +214,7 @@ https://github.com/user-attachments/assets/3564ddb6-a76c-4003-8f72-f328d0a21f97
 ```
 <img width="1908" height="991" alt="image" src="https://github.com/user-attachments/assets/2f04eb14-a2dc-41a4-a523-02b3075a5842" />
 
-<details>
+<details markdown="1">
 <summary><b> Azure DevOps: Boards + Pipelines  - pricing example </b> (Click to expand)</summary>
 
 > Click here to read more about:
@@ -260,7 +258,7 @@ https://github.com/user-attachments/assets/b8f0d004-32b4-4480-84b1-e80601be2863
 > developers frequently integrate their code changes into a shared repository,
 > allowing for automated builds and tests to ensure code quality and functionality.
 
-<details>
+<details markdown="1">
 <summary><b>GitHub Advanced Security - pricing example </b> (Click to expand)</summary>
 
 > Click here to read more about:
@@ -277,7 +275,7 @@ https://github.com/user-attachments/assets/b8f0d004-32b4-4480-84b1-e80601be2863
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b> GitHub Actions - pricing example </b> (Click to expand)</summary>
 
 > Click here to read more about:
@@ -292,7 +290,7 @@ https://github.com/user-attachments/assets/eb1b1c94-48f5-4136-9818-e4c356317b3b
 </details>
 
 
-<details>
+<details markdown="1">
 <summary><b> GitHub Code Quality - pricing example </b> (Click to expand)</summary>
 
 > Click here to read more about:
@@ -351,7 +349,8 @@ https://github.com/user-attachments/assets/458d8f3b-6fa0-40c8-a87e-60cef45c442a
 
 <img width="650" alt="image" src="https://github.com/user-attachments/assets/a90ebc61-82f6-4f2a-97ca-872ec940e857" />
 
-> [!TIP]
+> **Tip**
+>
 > Developer pushes code → CI runs → security & quality checks happen automatically:
 > - GitHub Actions runs build + tests
 > - CodeQL analyzes the code (and workflows)
@@ -383,10 +382,3 @@ https://github.com/user-attachments/assets/773adf4c-9ab4-429e-9c13-f6f8a06a4c2b
 > Click here to read more about [Centralized Logging Framework - Overview](https://github.com/brown9804/Centralized-Logging-Framework)
 
 <img width="650" alt="image" src="https://github.com/user-attachments/assets/d6a67c5b-c237-407b-b674-23ac034a019a" />
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1329-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-04-06</p>
-</div>
-<!-- END BADGE -->

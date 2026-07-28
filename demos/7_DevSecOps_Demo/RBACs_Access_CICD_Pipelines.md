@@ -1,13 +1,5 @@
 # Minimum Access Requirements <br/> for CI/CD Pipelines - Overview
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2026-01-25
-
-----------------------
-
 > One of best practices is `starting with the built-in Contributor role as a template`,
 > then `subtract what isn’t needed and add what Contributor misses.`
 > Microsoft provides tools to fetch a role definition. For example, [you can get the JSON for Contributor and modify it](https://learn.microsoft.com/en-us/azure/role-based-access-control/custom-roles).
@@ -15,7 +7,7 @@ Last updated: 2026-01-25
 > Contributor minus RBAC),` and another `“Access Manager”` role with `just Microsoft.Authorization/roleAssignments/*`
 
 
-<details>
+<details markdown="1">
 <summary><b>List of References </b> (Click to expand)</summary>
 
 - [Azure roles, Microsoft Entra roles, and classic subscription administrator roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)
@@ -47,16 +39,10 @@ graph TD
 
 <img width="850" height="194" alt="image" src="https://github.com/user-attachments/assets/214a26b9-0213-41e5-b0f2-b001d550a131" />
 
-> [!NOTE]
+> **Note**
+>
 > Azure DevOps repos / GitHub repos:
 
 <img width="850" height="626" alt="image" src="https://github.com/user-attachments/assets/b84dbbf1-0b76-4d03-886b-7df5bd55b482" />
 
 From [End-to-end governance in Azure when using CI/CD](https://learn.microsoft.com/en-us/devops/operate/governance-cicd)
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1329-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-04-06</p>
-</div>
-<!-- END BADGE -->

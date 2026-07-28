@@ -1,14 +1,6 @@
 # GitHub Commands - Check Repo Sizes in an Organization
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2026-01-20
-
-----------------------
-
-<details>
+<details markdown="1">
 <summary><b>List of References </b> (Click to expand)</summary>
 
 - [Repository limits](https://docs.github.com/en/repositories/creating-and-managing-repositories/repository-limits?utm_source=copilot.com)
@@ -61,10 +53,3 @@ Last updated: 2026-01-20
       > E.g in KB:
       
       <img width="1445" height="955" alt="image" src="https://github.com/user-attachments/assets/e6da7ec4-af20-4d40-9033-294f7e9c90ee" />
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1329-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-04-06</p>
-</div>
-<!-- END BADGE -->

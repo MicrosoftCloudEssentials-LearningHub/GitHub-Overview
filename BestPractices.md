@@ -1,15 +1,7 @@
 # GitHub Best Practices - Overview
 
-Costa Rica
 
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-
-Last updated: 2025-08-04
-
-----------------------
-
-<details>
+<details markdown="1">
 <summary><b>List of References </b> (Click to expand)</summary>
 
 - [Deleting Your Commit History?](https://xebia.com/blog/deleting-your-commit-history/)
@@ -42,7 +34,8 @@ Last updated: 2025-08-04
 
 > This section summarizes the standard workflow for contributing code.
 
-> [!TIP]
+> **Tip**
+>
 > For secure Azure DevOps integration, set up SSH keys ([see reference](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)).
 
 1. Clone the repository  
@@ -86,7 +79,7 @@ Last updated: 2025-08-04
 ## Good Content List Format 
 
 ```
-<details><summary> <a href=""> </a></summary><ul>
+<details markdown="1"><summary> <a href=""> </a></summary><ul>
         <li> <a href=""> </a> </li>
         <li> <a href=""> </a> </li>
         <li> <a href=""> </a> </li>
@@ -96,11 +89,3 @@ Last updated: 2025-08-04
         <li> <a href="" > </a> </li>
 </details></li> <!-- End  -->
 ```
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1329-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-04-06</p>
-</div>
-<!-- END BADGE -->
-

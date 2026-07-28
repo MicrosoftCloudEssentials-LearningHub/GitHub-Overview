@@ -1,16 +1,8 @@
 # From GitLab to GitHub - Overview 
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2026-01-25
-
-----------------------
-
 > Migrating a repository from GitLab to GitHub involves exporting your code and history, setting up a new GitHub repository, and carefully transferring issues, CI/CD pipelines, and permissions. The process is straightforward for code but requires extra steps for workflows and collaboration data.
 
-<details>
+<details markdown="1">
 <summary><b>List of References </b> (Click to expand)</summary>
 
 - [Repository limits GH](https://docs.github.com/en/repositories/creating-and-managing-repositories/repository-limits)
@@ -29,7 +21,8 @@ Last updated: 2026-01-25
 | **Integrations**    | GitHub offers broader ecosystem (Actions, Copilot, Codespaces). |
 
 
-> [!NOTE]
+> **Note**
+>
 > Preparation:
 > - Audit your GitLab repo: Check branches, tags, issues, merge requests, and CI/CD pipelines.
 > - Decide scope: Are you migrating just the code, or also issues, wiki, and pipelines?
@@ -89,7 +82,8 @@ https://github.com/user-attachments/assets/fffbbce1-8a48-49f7-a8d8-96da6d9c433e
 
 ## Issues and Comments
 
-> [!NOTE]
+> **Note**
+>
 > Some metadata (labels, assignees) may need manual adjustment.
 
 - GitHub does not natively import GitLab issues.
@@ -110,11 +104,3 @@ https://github.com/user-attachments/assets/fffbbce1-8a48-49f7-a8d8-96da6d9c433e
 - Recreate teams and permissions in GitHub.
 - GitHub offers **Organizations, Teams, and Role-based access control**.
 - If migrating multiple repos, consider using **GitHub Enterprise migration tools**.
-
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1329-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-04-06</p>
-</div>
-<!-- END BADGE -->

@@ -1,0 +1,1 @@
+--8<-- "demos/2_GitHub_Copilot_Licenses.md"

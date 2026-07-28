@@ -1,14 +1,7 @@
 # Apps Dev + GitHub Pricing - Overview 
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2026-01-25
-
-----------------------
-
-> [!IMPORTANT]
+> **Important**
+>
 > The information provided and any document (such as scripts, sample codes, etc.) is provided `AS-IS` and `WITH ALL FAULTS`.
 > Pricing estimates are for `demonstration purposes only and do not reflect final pricing`. `Microsoft assumes no liability`
 > for your use of this information and makes no guarantees or warranties, expressed or implied, regarding its accuracy or completeness,
@@ -16,7 +9,7 @@ Last updated: 2026-01-25
 > guidance, support, or more detailed information, please refer to Microsoft's official documentation or contact Microsoft directly`:
 > [Microsoft Sales and Support](https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME)
 
-<details>
+<details markdown="1">
 <summary><b>List of References </b> (Click to expand)</summary>
   
 - [Visual Studio subscriptions pricing](https://visualstudio.microsoft.com/vs/pricing/?tab=paid-subscriptions)
@@ -30,7 +23,7 @@ Last updated: 2026-01-25
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Table of Content </b> (Click to expand)</summary>
 
 - [Visual Studio](#visual-studio)
@@ -45,7 +38,8 @@ Last updated: 2026-01-25
 
 </details>
 
-> [!NOTE]
+> **Note**
+>
 > - Visual Studio `Dev Platform`
 > - Azure DevOps `Boards + Pipelines`
 > - GitHub areas: `Code Platform`
@@ -80,7 +74,8 @@ https://github.com/user-attachments/assets/b5eb82db-d047-4972-ab19-3692634dd0b8
 
 ### Hosting code
 
-> [!TIP]
+> **Tip**
+>
 > - License cost per user → same
 > - Total cost of ownership → different because Server requires your own infrastructure and operations 
 
@@ -116,7 +111,8 @@ https://github.com/user-attachments/assets/ae9e1f25-0e7d-4b68-95b8-db0c2fa9773a
 
 > Pricing Details: 
 
-> [!IMPORTANT]
+> **Important**
+>
 > These are the prices as of today. Please make sure to check the current prices here in case anything has changed.
 > - [Github Copilot](https://github.com/features/copilot/plans) - features and plans
 > - [GitHub Enterprise pricing](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339) - Table
@@ -128,7 +124,8 @@ https://github.com/user-attachments/assets/ae9e1f25-0e7d-4b68-95b8-db0c2fa9773a
 
     https://github.com/user-attachments/assets/a80d8ab6-e9d0-4ef6-9352-30098bbcbbb3
 
-> [!TIP]
+> **Tip**
+>
 > - To use these, each user typically needs a **GitHub Enterprise license** (around \$20 per user/month). `When`: code to be available on GitHub; but, this is not a requirement. Click here to read more about `GHC standaone` [Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/get-started/quickstart)
 > - `Visual Studio subscribers can often add GitHub Enterprise for $0.12 per user/month, then add Copilot for $19.` Bundle with VS Studio license and GHE applies whether it's an Enterprise or Professional license, as today. More details here [Visual Studio subscriptions pricing](https://visualstudio.microsoft.com/vs/pricing/?tab=paid-subscriptions), [GitHub Enterprise pricing](https://azure.microsoft.com/en-us/pricing/details/githubenterprise/?msockid=38ec3806873362243e122ce086486339), [Github Copilot](https://github.com/features/copilot/plans) ` EA or SCE`
 > - For large deals, GitHub sometimes offers a `1-month free trial`.
@@ -150,7 +147,7 @@ https://github.com/user-attachments/assets/ae9e1f25-0e7d-4b68-95b8-db0c2fa9773a
 | **GitHub Actions**                               | CI/CD + Testing         | Automates builds, tests, validations, and workflows directly in the repo. | - Ensures every commit is tested and validated. <br/> - Enables fast feedback loops and enforces quality gates at scale. |
 | **GitHub Code Quality (coming soon)**            | Quality & Analysis      | Static analysis, maintainability checks, code health scoring. |-  Improves long‑term code maintainability. <br/> - Reduces technical debt and supports consistent engineering standards. |
 
-<details>
+<details markdown="1">
 <summary><b> Azure DevOps: Boards + Pipelines  - pricing example </b> (Click to expand)</summary>
 
 > Click here to read more about:
@@ -164,7 +161,7 @@ https://github.com/user-attachments/assets/b8f0d004-32b4-4480-84b1-e80601be2863
 </details>
 
 
-<details>
+<details markdown="1">
 <summary><b>GitHub Advanced Security - pricing example </b> (Click to expand)</summary>
 
 > Click here to read more about:
@@ -181,7 +178,7 @@ https://github.com/user-attachments/assets/b8f0d004-32b4-4480-84b1-e80601be2863
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b> GitHub Actions - pricing example </b> (Click to expand)</summary>
 
 > Click here to read more about:
@@ -196,7 +193,7 @@ https://github.com/user-attachments/assets/eb1b1c94-48f5-4136-9818-e4c356317b3b
 </details>
 
 
-<details>
+<details markdown="1">
 <summary><b> GitHub Code Quality - pricing example </b> (Click to expand)</summary>
 
 > Click here to read more about:
@@ -207,10 +204,3 @@ https://github.com/user-attachments/assets/eb1b1c94-48f5-4136-9818-e4c356317b3b
 https://github.com/user-attachments/assets/de20f063-d70a-42d0-bb64-dd6acef85c59
 
 </details>
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1329-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-04-06</p>
-</div>
-<!-- END BADGE -->
