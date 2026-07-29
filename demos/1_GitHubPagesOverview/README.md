@@ -15,8 +15,6 @@
 <details markdown="1">
 <summary><b>Table of Content</b> (Click to expand)</summary>
 
-- [Wiki](#wiki)
-- [Content](#content)
 - [How is GitHub Pages Used?](#how-is-github-pages-used)
 - [Automate the process of converting Markdown to static HTML and deploying it using GitHub Pages and GitHub Actions](#automate-the-process-of-converting-markdown-to-static-html-and-deploying-it-using-github-pages-and-github-actions)
 - [Setting Up GitHub Pages](#setting-up-github-pages)

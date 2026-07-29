@@ -81,23 +81,17 @@
    - Go to the GitHub Marketplace.
    - Click on the **Models** section to explore available AI models.
 
-        <table>
-          <tr>
-            <td><img width="400" alt="image" src="https://github.com/user-attachments/assets/4d1fda24-f87e-4b19-a92b-6f056768cdb0" /></td>
-            <td><img width="400" alt="image" src="https://github.com/user-attachments/assets/5ef8ee5f-0ff7-4cb3-a09f-c9782dabc22f" /></td>
-          </tr>
-        </table>
+| GitHub Marketplace | Model catalog |
+| --- | --- |
+| <img width="400" alt="GitHub Marketplace navigation" src="https://github.com/user-attachments/assets/4d1fda24-f87e-4b19-a92b-6f056768cdb0" /> | <img width="400" alt="GitHub Models catalog" src="https://github.com/user-attachments/assets/5ef8ee5f-0ff7-4cb3-a09f-c9782dabc22f" /> |
 
 2. **Select a Model**:
    - Browse through the models and select one that fits your needs, such as **OpenAI GPT-4**.
    - Review the model’s details, capabilities, and usage instructions.
 
-        <table>
-          <tr>
-            <td><img width="400" alt="image" src="https://github.com/user-attachments/assets/2e6063c4-ff13-48bf-b879-59d64f1333fb" /></td>
-            <td><img width="400" alt="image" src="https://github.com/user-attachments/assets/ea65e7ed-26c5-49af-9c31-7d01a098f2b2" /></td>
-          </tr>
-        </table>
+| Browse models | Review model details |
+| --- | --- |
+| <img width="400" alt="Browse available GitHub Models" src="https://github.com/user-attachments/assets/2e6063c4-ff13-48bf-b879-59d64f1333fb" /> | <img width="400" alt="Review a GitHub model's details" src="https://github.com/user-attachments/assets/ea65e7ed-26c5-49af-9c31-7d01a098f2b2" /> |
         
 ### Experiment in the Playground
 1. **Access the Playground**:
@@ -111,21 +105,13 @@
    - Submit prompts to see how the model responds.
    - Example prompt: `Explain the basics of machine learning`
 
-        <table>
-          <tr>
-            <td><img width="400" alt="image" src="https://github.com/user-attachments/assets/b1e1d229-e7ad-47eb-83e9-5ed3213537b8" /></td>
-            <td><img width="400" alt="image" src="" /></td>
-          </tr>
-        </table>
+<img width="550" alt="Test a model in the GitHub Models playground" src="https://github.com/user-attachments/assets/b1e1d229-e7ad-47eb-83e9-5ed3213537b8" />
 
    -  You can compare the performance between models:
 
-        <table>
-          <tr>
-            <td><img width="400" alt="image" src="https://github.com/user-attachments/assets/a512c5e9-4021-4db8-95ec-959c43749d23" /></td>
-            <td><img width="400" alt="image" src="https://github.com/user-attachments/assets/22fe2804-cd2a-41e1-a391-5e93eb16f17e" /></td>
-          </tr>
-        </table>
+| First model | Comparison model |
+| --- | --- |
+| <img width="400" alt="First model playground result" src="https://github.com/user-attachments/assets/a512c5e9-4021-4db8-95ec-959c43749d23" /> | <img width="400" alt="Comparison model playground result" src="https://github.com/user-attachments/assets/22fe2804-cd2a-41e1-a391-5e93eb16f17e" /> |
 
 3. **Save Experiments**:
    - Save your experiments by clicking on the `Save` button.

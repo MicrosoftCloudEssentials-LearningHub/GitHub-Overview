@@ -31,10 +31,10 @@
   - [Hosting Code](#hosting-code)
   - [Code Assistant](#code-assistant)
 - [DevSecOps](#devsecops)
-  - [Azure DevOps: Boards + Pipelines - Pricing Example](#azure-devops-boards--pipelines----pricing-example)
-  - [GitHub Advanced Security - Pricing Example](#github-advanced-security---pricing-example)
-  - [GitHub Actions - Pricing Example](#github-actions---pricing-example)
-  - [GitHub Code Quality - Pricing Example](#github-code-quality---pricing-example)
+  - [Azure DevOps: Boards + Pipelines - Pricing Example](#azure-devops-boards-pipelines-pricing-example)
+  - [GitHub Advanced Security - Pricing Example](#github-advanced-security-pricing-example)
+  - [GitHub Actions - Pricing Example](#github-actions-pricing-example)
+  - [GitHub Code Quality - Pricing Example](#github-code-quality-pricing-example)
 
 </details>
 
@@ -147,6 +147,7 @@ https://github.com/user-attachments/assets/ae9e1f25-0e7d-4b68-95b8-db0c2fa9773a
 | **GitHub Actions**                               | CI/CD + Testing         | Automates builds, tests, validations, and workflows directly in the repo. | - Ensures every commit is tested and validated. <br/> - Enables fast feedback loops and enforces quality gates at scale. |
 | **GitHub Code Quality (coming soon)**            | Quality & Analysis      | Static analysis, maintainability checks, code health scoring. |-  Improves long‑term code maintainability. <br/> - Reduces technical debt and supports consistent engineering standards. |
 
+<a id="azure-devops-boards-pipelines-pricing-example"></a>
 <details markdown="1">
 <summary><b> Azure DevOps: Boards + Pipelines  - pricing example </b> (Click to expand)</summary>
 
@@ -161,6 +162,7 @@ https://github.com/user-attachments/assets/b8f0d004-32b4-4480-84b1-e80601be2863
 </details>
 
 
+<a id="github-advanced-security-pricing-example"></a>
 <details markdown="1">
 <summary><b>GitHub Advanced Security - pricing example </b> (Click to expand)</summary>
 
@@ -178,6 +180,7 @@ https://github.com/user-attachments/assets/b8f0d004-32b4-4480-84b1-e80601be2863
 
 </details>
 
+<a id="github-actions-pricing-example"></a>
 <details markdown="1">
 <summary><b> GitHub Actions - pricing example </b> (Click to expand)</summary>
 
@@ -193,6 +196,7 @@ https://github.com/user-attachments/assets/eb1b1c94-48f5-4136-9818-e4c356317b3b
 </details>
 
 
+<a id="github-code-quality-pricing-example"></a>
 <details markdown="1">
 <summary><b> GitHub Code Quality - pricing example </b> (Click to expand)</summary>
 

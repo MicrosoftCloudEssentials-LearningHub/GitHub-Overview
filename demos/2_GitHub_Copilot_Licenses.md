@@ -42,7 +42,7 @@
 - [Custom LLM Scenario](#custom-llm-scenario)
 - [VS code vs Visual Studio](#vs-code-vs-visual-studio)
 - [How to setup GitHub Copilot](#how-to-setup-github-copilot)
-- [GitHub Copilot with GitHub Enterprise – Setup Procedure](#github-copilot-with-github-enterprise--setup-procedure)
+- [GitHub Copilot with GitHub Enterprise – Setup Procedure](#github-copilot-with-github-enterprise-setup-procedure)
 
 </details>
 

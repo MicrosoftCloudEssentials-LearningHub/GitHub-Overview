@@ -68,18 +68,18 @@ graph TD
 <details markdown="1">
 <summary><b>Table of Content </b> (Click to expand)</summary>
 
-- [DevOps + Security](#devops--security)
+- [DevOps + Security](#devops-security)
 - [Setup Azure DevOps](#setup-azure-devops)
-  - [Azure DevOps: Boards + Pipelines - pricing example](#azure-devops-boards--pipelines----pricing-example)
-- [GHE + VS + GHC setup](#ghe--vs--ghc-setup)
-- [Setup GitHub Actions + GHAS + GHCQ (CI)](#setup-github-actions--ghas--ghcq-ci)
-  - [GitHub Advanced Security - pricing example](#github-advanced-security---pricing-example)
-  - [GitHub Actions - pricing example](#github-actions---pricing-example)
-  - [GitHub Code Quality - pricing example](#github-code-quality---pricing-example)
-  - [Turn on core GHAS features (org → repo baseline)](#turn-on-core-ghas-features-org--repo-baseline)
+  - [Azure DevOps: Boards + Pipelines - pricing example](#azure-devops-boards-pipelines-pricing-example)
+- [GHE + VS + GHC setup](#ghe-vs-ghc-setup)
+- [Setup GitHub Actions + GHAS + GHCQ (CI)](#setup-github-actions-ghas-ghcq-ci)
+  - [GitHub Advanced Security - pricing example](#github-advanced-security-pricing-example)
+  - [GitHub Actions - pricing example](#github-actions-pricing-example)
+  - [GitHub Code Quality - pricing example](#github-code-quality-pricing-example)
+  - [Turn on core GHAS features (org → repo baseline)](#turn-on-core-ghas-features-org-repo-baseline)
   - [Enable CodeQL code scanning (CI integrated)](#enable-codeql-code-scanning-ci-integrated)
 - [Setup Azure Release Pipelines (CD)](#setup-azure-release-pipelines-cd)
-- [Monitoring + Observability (Telemetry)](#monitoring--observability-telemetry)
+- [Monitoring + Observability (Telemetry)](#monitoring-observability-telemetry)
   
 </details>
 
@@ -214,6 +214,7 @@ https://github.com/user-attachments/assets/3564ddb6-a76c-4003-8f72-f328d0a21f97
 ```
 <img width="1908" height="991" alt="image" src="https://github.com/user-attachments/assets/2f04eb14-a2dc-41a4-a523-02b3075a5842" />
 
+<a id="azure-devops-boards-pipelines-pricing-example"></a>
 <details markdown="1">
 <summary><b> Azure DevOps: Boards + Pipelines  - pricing example </b> (Click to expand)</summary>
 
@@ -258,6 +259,7 @@ https://github.com/user-attachments/assets/b8f0d004-32b4-4480-84b1-e80601be2863
 > developers frequently integrate their code changes into a shared repository,
 > allowing for automated builds and tests to ensure code quality and functionality.
 
+<a id="github-advanced-security-pricing-example"></a>
 <details markdown="1">
 <summary><b>GitHub Advanced Security - pricing example </b> (Click to expand)</summary>
 
@@ -275,6 +277,7 @@ https://github.com/user-attachments/assets/b8f0d004-32b4-4480-84b1-e80601be2863
 
 </details>
 
+<a id="github-actions-pricing-example"></a>
 <details markdown="1">
 <summary><b> GitHub Actions - pricing example </b> (Click to expand)</summary>
 
@@ -290,6 +293,7 @@ https://github.com/user-attachments/assets/eb1b1c94-48f5-4136-9818-e4c356317b3b
 </details>
 
 
+<a id="github-code-quality-pricing-example"></a>
 <details markdown="1">
 <summary><b> GitHub Code Quality - pricing example </b> (Click to expand)</summary>
 

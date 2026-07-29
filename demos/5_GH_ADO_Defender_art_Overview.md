@@ -21,10 +21,10 @@
 
 - [Why GitHub?](#why-github)
 - [Why GitHub Copilot?](#why-github-copilot)
-- [Why Azure DevOps & GitHub](#why-azure-devops--github)
+- [Why Azure DevOps & GitHub](#why-azure-devops-github)
 - [GHAS in GitHub Repos vs Azure DevOps Repos](#ghas-in-github-repos-vs-azure-devops-repos)
 - [More secure with Defender for Cloud](#more-secure-with-defender-for-cloud)
-- [FAQ](@faq)
+- [FAQ](#faq)
 
 </details>
 
